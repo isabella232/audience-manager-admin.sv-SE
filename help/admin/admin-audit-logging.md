@@ -5,7 +5,7 @@ seo-title: Granskningsloggning
 title: Granskningsloggning
 uuid: null
 translation-type: tm+mt
-source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
+source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 Använd [!UICONTROL  Audit Logging] som första plats när du felsöker kundproblem.
 
-> [!NOTE]
+>[!NOTE]
 >
-> Funktionen och dokumentationen [!UICONTROL Audit Logging] är under utveckling och kan komma att ändras. Logga eventuella problem du stöter på i [!DNL JIRA] ([!DNL UI] team).
+>Funktionen och dokumentationen [!UICONTROL Audit Logging] är under utveckling och kan komma att ändras. Logga eventuella problem du stöter på i [!DNL JIRA] ([!DNL UI] team).
 
 ![Granskningsloggningsvy](assets/audit-logging-img.png)
 
