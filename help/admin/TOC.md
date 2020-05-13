@@ -1,9 +1,12 @@
 ---
 product: audience-manager
 audience: admin
-user-guide-title: Audience Manager Admin Guide
+user-guide-title: Administratörshandbok för Audience Manager
 translation-type: tm+mt
-source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
+source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +49,6 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 + OAuth2-klienter{#oath2-clients}
    + [OAuth2-klienter](admin-oauth2/admin-oauth2-create-edit.md)
    + [Krav och rekommendationer för API](admin-oauth2/aam-admin-api-requirements.md)
-+ [Integreringsanvändare](admin-manage-integration-users.md)
 + [Granskningsloggning](admin-audit-logging.md)
 + [Min profil](admin-my-profile.md)
 + [Felsökning av målinställningar](admin-destination-troubleshooting.md)
