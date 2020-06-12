@@ -5,7 +5,10 @@ seo-title: Skapa eller redigera en FTP-server
 title: Skapa eller redigera en FTP-server
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 4%
 
 ---
 
@@ -38,7 +41,7 @@ Använd [!UICONTROL Servers] sidan i Audience Manager Admin-verktyget för att s
    * **[!UICONTROL Authentication]:**Ange önskad metod för serverautentisering:**[!UICONTROL Username/Password]**eller **[!UICONTROL SSH Key]**.
    >[!NOTE]
    >
-   >Kom ihåg att vitlista vår utlänning [!DNL FTP] [!DNL IP]: **52.44.29.204**.
+   >Kom ihåg att lägga till vår utgång [!DNL FTP] [!DNL IP] i din lista över tillåtna IP-adresser: **52.44.29.204**.
 
 1. För **[!UICONTROL SSH Key]** autentisering:
    1. Generera nyckelparet public/private från alla [!DNL Linux] datorer och [!DNL Mac] datorer.
