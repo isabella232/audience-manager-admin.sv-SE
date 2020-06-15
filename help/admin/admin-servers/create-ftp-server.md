@@ -5,9 +5,9 @@ seo-title: Skapa eller redigera en FTP-server
 title: Skapa eller redigera en FTP-server
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '423'
 ht-degree: 4%
 
 ---
@@ -44,6 +44,9 @@ Använd [!UICONTROL Servers] sidan i Audience Manager Admin-verktyget för att s
    >Kom ihåg att lägga till vår utgång [!DNL FTP] [!DNL IP] i din lista över tillåtna IP-adresser: **52.44.29.204**.
 
 1. För **[!UICONTROL SSH Key]** autentisering:
+   >[!NOTE]
+   >
+   >När du konfigurerar SSH-nyckelautentisering ska du alltid generera de offentliga och privata nycklarna enbart i OpenSSH-format.
    1. Generera nyckelparet public/private från alla [!DNL Linux] datorer och [!DNL Mac] datorer.
    1. Ge klienten den **offentliga nyckeln** att uppdatera på [!DNL SFTP] servern. De måste innehålla all text från den offentliga nyckeln på servern, inklusive `-----BEGIN RSA PRIVATE KEY-----` och `-----END RSA PRIVATE KEY-----` . I stället måste de ange det användarnamn under vilket de installerar nyckeln.
    1. Uppdatera användarnamnsfältet med det som tillhandahålls av klienten och nyckelfältet med den **privata nyckeln**.
