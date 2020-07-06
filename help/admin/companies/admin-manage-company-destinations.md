@@ -5,7 +5,10 @@ seo-title: Hantera företagsdestinationer
 title: Hantera företagsdestinationer
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: f247457004a624297ddc8847dd256dbb7d8da418
+workflow-type: tm+mt
+source-wordcount: '1082'
+ht-degree: 1%
 
 ---
 
@@ -18,13 +21,13 @@ Skapa, redigera och ta bort mål för Audience Manager.
 
 Mer information finns i [Destinationer](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html) i användarhandboken för *Audience Manager*.
 
-## Skapa eller redigera företagsmål {#create-edit-company-destinations}
+## Skapa eller redigera företagsdestinationer {#create-edit-company-destinations}
 
 Bläddra igenom avsnitten för steg-för-steg-instruktioner om hur du skapar nya [!DNL Audience Manager] mål eller redigerar befintliga mål.
 
 <!-- create-edit-company-destinations.xml -->
 
-Gå till [Experience Clouds partnerintegrationssida](https://wiki.corp.adobe.com/x/mPIMPw) innan du konfigurerar mål. Sidan innehåller den specifika information som du behöver fylla i för varje [!DNL Audience Manager] partnerintegrering.
+Gå till [Experience Cloud partnerintegrationssida](https://wiki.corp.adobe.com/x/mPIMPw) innan du ställer in mål. Sidan innehåller den specifika information som du behöver fylla i för varje [!DNL Audience Manager] partnerintegrering.
 
 Om din kund vill använda [!DNL Adobe Media Optimizer] som mål i [!DNL Audience Manager] måste du konfigurera detta i [!DNL Adobe Media Optimizer].
 
@@ -50,7 +53,7 @@ Fyll i fälten i **[!UICONTROL Basic Settings]** fönstret.
    * **[!UICONTROL Integration Code Value]:**Om du väljer den här inställningen fylls målvärdesmappningen med integreringskoden för[!DNL Audience Manager]segment.
 * **[!UICONTROL User ID Key]:**(Obligatoriskt) Välj önskad användar-ID-nyckel för det här målet i listrutan.
 
-Detta ID används som huvuddatakällans ID. Detta avgör vilka användar-ID:n som ska vara gränslösa i filen.
+Detta ID används som överordnad ID för datakälla. Detta avgör vilka användar-ID:n som ska vara gränslösa i filen.
 
 >[!NOTE]
 >
@@ -82,7 +85,7 @@ Fyll i fälten nedan för [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] eller [!
    * **[!UICONTROL HTTP]**
    * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**: (Obligatoriskt) Välj önskad server för det här målet i listrutan.
-* **[!UICONTROL Format]**: (Obligatoriskt) Välj önskat format för det här målet i listrutan: [!DNL HTTP] eller filtyp, beroende på vilket protokoll du väljer ovan.
+* **[!UICONTROL Format]**: (Obligatoriskt) Välj önskat format för det här målet i listrutan: [!DNL HTTP] eller filtypen, beroende på vilket protokoll du väljer ovan.
 * **[!UICONTROL Sync Type]**: (Obligatoriskt) Välj önskad synkroniseringstyp för det här målet. Detta anger nivån för användaraktiviteter som klienter vill inkludera i utgående order. Välj **[!UICONTROL Customer]** om kunderna bara är intresserade av att analysera segmentkvalifikationer från sina egenskaper. Välj **[!UICONTROL Platform]** om de vill inkludera segmentkvalifikationer från aktiviteter utanför webbplatsen för alla [!DNL Audience Manager] kunder.
 * **[!UICONTROL Customer]**: Filen innehåller aktiva användare som bara har 1 trait-realisering i klientens egenskaper (som är kopplade till klientens [!UICONTROL PID]) för den valda tidsperioden. Dina kunder bör använda det här alternativet för att avsända sina *segmentkvalifikationer i realtid* till destinationer.
 * **[!UICONTROL Platform]**: Filen innehåller aktiva användare som har minst en realtidsinteraktion, oavsett om det är ID-synkronisering eller spårbarhet, var som helst i alla [!DNL Audience Manager] klienters egenskaper (som är kopplade till alla klient-PID:n) för den valda tidsperioden. Dina kunder bör använda det här alternativet för att avsända sina *sammanlagda* segmentkvalifikationer till destinationer.
@@ -91,13 +94,21 @@ Fyll i fälten nedan för [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] eller [!
 Välj sedan ordertyp. Detta anger frekvens och omfattning för varje utgående integrering med partners. Välj mellan stegvis och fullständig beställning.
 * **[!UICONTROL Incremental Scheduled Run]**: Vid varje körning [!DNL Audience Manager] kommer endast de nya nettoanvändare som är kvalificerade sedan föregående utgående order att skickas ut. Välj den önskade tidsperiod som du vill [!DNL Audience Manager] utföra inkrementella synkroniseringsprocesser för. Du kan till exempel välja var 24:e timme, var 7:e dag, var 30:e dag eller aldrig.
 
->[!NOTE] {prioritet=&quot;high&quot;}
+<!--
+I removed {importance="high"} from note for Exp League rendering. -Bob
+-->
+
+>[!NOTE]
 >
 >Den första stegvisa ordningen motsvarar en fullständig ordning eftersom inga tidigare användare någonsin skickades till målet.
 
 * **[!UICONTROL Full Sync Scheduled Run]**: För varje körning [!DNL Audience Manager] kommer alla aktiva användare sedan målet först konfigurerades att skickas. Välj önskat schema som du vill använda [!DNL Audience Manager] för att utföra fullständiga synkroniseringsprocesser. Du kan till exempel välja var 24:e timme, var 7:e dag, var 30:e dag eller aldrig.
 
->[!NOTE] {prioritet=&quot;high&quot;}
+<!--
+I removed {importance="high"} from note for Exp League rendering. -Bob
+-->
+
+>[!NOTE]
 >
 >Vi rekommenderar att du använder inkrementell synkronisering oftare än med fullständig synkronisering. Inkrementell synkronisering skickar bara filer som innehåller nya trait-implementeringar eller ID-synkroniseringar. Fullständig synkronisering skickar alla filer, oavsett om de innehåller nya implementeringar eller ID-synkroniseringar eller inte. Använd bara konfigurationen när klienterna behöver en fullständig kopia av alla sina användare för att minska volymen för utgående data. [!UICONTROL Full Sync Scheduled Run]
 
