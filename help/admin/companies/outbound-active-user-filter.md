@@ -1,16 +1,19 @@
 ---
 description: Följ dessa anvisningar för att generera en fullständig synkroniseringsfil som endast innehåller nyligen aktiva användare. Du kanske vill filtrera så att aktiva användare kan skicka relevanta data till ett målsystem på plats eller begränsa storleken på de filer som skickas till en DSP. Du kan inte använda det här filtret med inkrementell synkronisering.
 seo-description: Följ dessa anvisningar för att generera en fullständig synkroniseringsfil som endast innehåller nyligen aktiva användare. Du kanske vill filtrera så att aktiva användare kan skicka relevanta data till ett målsystem på plats eller begränsa storleken på de filer som skickas till en DSP. Du kan inte använda det här filtret med inkrementell synkronisering.
-seo-title: Filtrera utgående data endast för aktiva användare
-title: Filtrera utgående data endast för aktiva användare
+seo-title: Filtrera utgående data endast efter aktiva användare
+title: Filtrera utgående data endast efter aktiva användare
 uuid: a2b4a385-eee3-458c-b978-09509cacb397
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 8%
 
 ---
 
 
-# Filtrera utgående data endast för aktiva användare {#filter-outbound-data-by-active-users-only}
+# Filtrera utgående data endast efter aktiva användare {#filter-outbound-data-by-active-users-only}
 
 Följ dessa anvisningar för att generera en fullständig synkroniseringsfil som endast innehåller nyligen aktiva användare. Du kanske vill filtrera så att aktiva användare kan skicka relevanta data till ett målsystem på plats eller begränsa storleken på de filer som skickas till en DSP. Du kan inte använda det här filtret med inkrementell synkronisering.
 
