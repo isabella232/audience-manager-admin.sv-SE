@@ -1,16 +1,19 @@
 ---
 description: 'Använd granskningsloggning som första plats när du felsöker kundproblem. '
 seo-description: 'Använd granskningsloggning som första plats när du felsöker kundproblem. '
-seo-title: Granskningsloggning
-title: Granskningsloggning
+seo-title: Revisionsloggar
+title: Revisionsloggar
 uuid: null
 translation-type: tm+mt
 source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
 
-# Granskningsloggning {#audit-logging}
+# Revisionsloggar {#audit-logging}
 
 Använd [!UICONTROL  Audit Logging] som första plats när du felsöker kundproblem.
 
