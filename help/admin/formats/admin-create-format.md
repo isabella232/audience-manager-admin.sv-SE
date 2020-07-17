@@ -1,18 +1,21 @@
 ---
-description: Använd sidan Format i Audience Manager Admin-verktyget för att skapa ett nytt format eller för att redigera ett befintligt format.
-seo-description: Använd sidan Format i Audience Manager Admin-verktyget för att skapa ett nytt format eller för att redigera ett befintligt format.
+description: Använd formatsidan i administrationsverktyget för Audience Manager för att skapa ett nytt format eller för att redigera ett befintligt format.
+seo-description: Använd formatsidan i administrationsverktyget för Audience Manager för att skapa ett nytt format eller för att redigera ett befintligt format.
 seo-title: Skapa eller redigera ett format
 title: Skapa eller redigera ett format
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 3%
 
 ---
 
 
 # Skapa eller redigera ett format {#create-or-edit-a-format}
 
-Använd [!UICONTROL Formats] sidan i Audience Manager Admin för att skapa ett nytt format eller för att redigera ett befintligt format.
+Använd [!UICONTROL Formats] sidan i administrationsverktyget för Audience Manager för att skapa ett nytt format eller för att redigera ett befintligt format.
 
 <!-- t_create_format.xml -->
 
@@ -41,8 +44,8 @@ Använd [!UICONTROL Formats] sidan i Audience Manager Admin för att skapa ett n
    * **[!UICONTROL Data Row]:**Ange den text som visas i varje avgränsad rad i filen.
    * **[!UICONTROL Maximum File Size (In MB)]:**Ange den maximala filstorleken för dataöverföringsfiler. Komprimerade filer måste vara mindre än 100 MB. Det finns ingen gräns för okomprimerad filstorlek.
    * **[!UICONTROL Compression]:**Välj önskad komprimeringstyp: gz eller zip för datafilerna. För leverans till[!UICONTROL AWS S3]måste du använda .gz eller okomprimerade filer.
-   * **[!UICONTROL .info Receipt]:**Anger att en fil för överföringskontroll ([!DNL .info]) genereras. Filen innehåller metadatainformation om filöverföringar så att partners kan verifiera att Audience Manager hanterar filöverföringar korrekt.[!DNL .info]Mer information finns i[Överföringskontrollfiler för loggfilsöverföringar](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html).
-   * **[!UICONTROL MD5 Checksum Receipt]:**Anger att en inleverans av en[!DNL MD5]kontrollsumma genereras. Kvittot på kontrollsumman så att partners kan verifiera att Audience Manager hanterade hela överföringen korrekt.[!DNL MD5]
+   * **[!UICONTROL .info Receipt]:**Anger att en fil för överföringskontroll ([!DNL .info]) genereras. Filen innehåller metadatainformation om filöverföringar så att partners kan verifiera att filöverföringar hanteras korrekt av Audience Manager.[!DNL .info]Mer information finns i[Överföringskontrollfiler för loggfilsöverföringar](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html).
+   * **[!UICONTROL MD5 Checksum Receipt]:**Anger att en inleverans av en[!DNL MD5]kontrollsumma genereras. Kvittot för kontrollsumman så att partners kan verifiera att Audience Manager har hanterat den fullständiga överföringen korrekt.[!DNL MD5]
 
 1. (Villkorligt) Om du väljer **[!UICONTROL HTTP]**, fyll i fälten:
 
