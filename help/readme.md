@@ -1,6 +1,9 @@
 ---
 source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '329'
+ht-degree: 1%
 
 ---
 # Instruktioner
@@ -24,7 +27,7 @@ translation-type: tm+mt
 
 ## Metadata för användarhandboksnivå
 
-+ Metadata som beskriver användarhandboken lagras i `TOC.md`. Detta omfattar följande:
++ Metadata som beskriver användarhandboken lagras i `TOC.md`. Det inkluderar:
    + product - product/capabilities.
    + cloud - molnet som den här produkten tillhör.
    + målgrupp - målgrupp eller arketyp som guiden riktar sig till.
@@ -32,7 +35,7 @@ translation-type: tm+mt
 
 ## Metadata för sidnivå
 
-+ Metadata som krävs för att beskriva ett dokument lagras som en del av varje enskild sida. Detta omfattar följande:
++ Metadata som krävs för att beskriva ett dokument lagras som en del av varje enskild sida. Det inkluderar:
    + title - sidans titel.
    + description - description of page.
    + seo-title - seo alternativ titel.
