@@ -6,6 +6,9 @@ title: HTTP-formatmakron
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 translation-type: tm+mt
 source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +31,7 @@ En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../f
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> Audience Manager- </span> ID. </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> -ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
@@ -88,7 +91,7 @@ En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../f
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Audience <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Manager DCS-regionen </a> där aktiviteten kom.</p> </td> 
+   <td colname="col3"> <p>DCS-regionen <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager </a> där aktiviteten kom.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -157,7 +160,7 @@ En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../f
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>En lista över <span class="keyword"> användar-ID: </span> n för Audience Manager. Du kan även returnera specifika fält som innehåller följande: </p> 
+   <td colname="col3"> <p>En lista över <span class="keyword"> Audience Manager </span> användar-ID:n. Du kan även returnera specifika fält som innehåller följande: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
