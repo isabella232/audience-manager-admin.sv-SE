@@ -1,18 +1,21 @@
 ---
-description: Använd serversidan i Audience Manager Admin-verktyget för att skapa en ny S3-server eller för att redigera en befintlig server.
-seo-description: Använd serversidan i Audience Manager Admin-verktyget för att skapa en ny S3-server eller för att redigera en befintlig server.
+description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny S3-server eller för att redigera en befintlig server.
+seo-description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny S3-server eller för att redigera en befintlig server.
 seo-title: Skapa eller redigera en S3-server
 title: Skapa eller redigera en S3-server
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 7%
 
 ---
 
 
 # Skapa eller redigera en S3-server {#create-or-edit-an-s-server}
 
-Använd [!UICONTROL Servers] sidan i Audience Manager Admin-verktyget för att skapa en ny [!DNL S3] server eller för att redigera en befintlig server.
+Använd [!UICONTROL Servers] sidan i administrationsverktyget för Audience Manager för att skapa en ny [!DNL S3] server eller för att redigera en befintlig server.
 
 >[!NOTE]
 >
