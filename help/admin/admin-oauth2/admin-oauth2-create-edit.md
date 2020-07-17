@@ -1,11 +1,14 @@
 ---
-description: Använd sidan OAuth2-klienter för att visa en lista över OAuth2-klienter i Audience Manager-konfigurationen. Du kan redigera eller ta bort befintliga klienter eller skapa nya klienter, förutsatt att du har tilldelats rätt användarroller.
-seo-description: Använd sidan OAuth2-klienter för att visa en lista över OAuth2-klienter i Audience Manager-konfigurationen. Du kan redigera eller ta bort befintliga klienter eller skapa nya klienter, förutsatt att du har tilldelats rätt användarroller.
+description: Använd sidan för OAuth2-klienter för att visa en lista över OAuth2-klienter i din Audience Manager-konfiguration. Du kan redigera eller ta bort befintliga klienter eller skapa nya klienter, förutsatt att du har tilldelats rätt användarroller.
+seo-description: Använd sidan för OAuth2-klienter för att visa en lista över OAuth2-klienter i din Audience Manager-konfiguration. Du kan redigera eller ta bort befintliga klienter eller skapa nya klienter, förutsatt att du har tilldelats rätt användarroller.
 seo-title: OAuth2-klienter
 title: OAuth2-klienter
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ Använd [!UICONTROL OAuth2 Clients] sidan för att visa en lista över [!UICONTR
 
 >[!NOTE]
 >
->Se till att kunden läser [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) -dokumentationen i [!DNL Audience Manager User Guide.
+>Se till att kunden läser [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) -dokumentationen i användarhandboken för [!DNL Audience Manager.
 
 [!DNL OAuth2] är en öppen standard för auktorisering som ger skyddad delegerad åtkomst till [!DNL Audience Manager] resurser för en resursägares räkning.
 
@@ -34,7 +37,7 @@ Använd [!UICONTROL Search] rutan eller sidnumreringskontrollerna längst ned i 
 
 <!-- t_create_edit_auth.xml -->
 
-Använd sidan [!UICONTROL OAuth2 Clients] i Audience Manager- [!UICONTROL Admin] verktyget för att skapa en ny [!UICONTROL Oauth2] klient eller för att redigera en befintlig klient.
+Använd [!UICONTROL OAuth2 Clients] sidan i verktyget Audience Manager [!UICONTROL Admin] för att skapa en ny [!UICONTROL Oauth2] klient eller för att redigera en befintlig klient.
 
 1. Om du vill skapa en ny [!UICONTROL OAuth2] klient klickar du på **[!UICONTROL OAuth2 Clients]** > **[!UICONTROL Add OAuth2 Client]**. Om du vill redigera en befintlig [!UICONTROL OAuth2] klient klickar du på önskad klient i **[!UICONTROL Client ID]** kolumnen.
 1. Ange önskat namn för den här [!UICONTROL OAuth2] klienten. Observera att detta är ett namn som bara gäller för posten.
