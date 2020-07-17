@@ -1,16 +1,19 @@
 ---
 description: Logga in på kontohanteringsportalen i Inside Adobe för att begära funktionell administratörsåtkomst och följ stegen som beskrivs nedan.
 seo-description: Logga in på kontohanteringsportalen i Inside Adobe för att begära funktionell administratörsåtkomst och följ stegen som beskrivs nedan.
-seo-title: Beställ funktionell administratörsåtkomst
-title: Beställ funktionell administratörsåtkomst
+seo-title: Begära funktionell administratörsåtkomst
+title: Begära funktionell administratörsåtkomst
 uuid: 261494ab-74e6-4465-b599-7a3e9c39e1e6
 translation-type: tm+mt
 source-git-commit: 1f51d5c83b1cc3cd98a3f3246c13613bd5317091
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 10%
 
 ---
 
 
-# Beställ funktionell administratörsåtkomst {#how-to-request-functional-admin-access}
+# Begära funktionell administratörsåtkomst {#how-to-request-functional-admin-access}
 
 Logga in på [!UICONTROL Identity & Access Management] portalen i [!UICONTROL Inside Adobe] för att begära [!UICONTROL Functional Admin Access] och följ stegen som beskrivs nedan.
 
