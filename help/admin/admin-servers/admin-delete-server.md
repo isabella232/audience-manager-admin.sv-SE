@@ -1,18 +1,21 @@
 ---
-description: Använd serversidan i Audience Manager Admin-verktyget för att ta bort en befintlig server.
-seo-description: Använd serversidan i Audience Manager Admin-verktyget för att ta bort en befintlig server.
+description: Använd serversidan i administrationsverktyget för Audience Manager för att ta bort en befintlig server.
+seo-description: Använd serversidan i administrationsverktyget för Audience Manager för att ta bort en befintlig server.
 seo-title: Ta bort en server
 title: Ta bort en server
 uuid: 21d8feeb-a205-43bb-9bc1-9048c918a80a
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 10%
 
 ---
 
 
 # Ta bort en server {#delete-a-server}
 
-Använd [!UICONTROL Servers] sidan i Audience Manager Admin för att ta bort en befintlig server.
+Använd [!UICONTROL Servers] sidan i administrationsverktyget för Audience Manager för att ta bort en befintlig server.
 
 <!-- t_delete_server.xml -->
 
