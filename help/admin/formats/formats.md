@@ -6,6 +6,9 @@ title: Översikt över format
 uuid: ec80ac49-6ec5-4cd4-a881-a05240675c00
 translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
