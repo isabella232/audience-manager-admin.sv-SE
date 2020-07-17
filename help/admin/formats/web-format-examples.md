@@ -1,16 +1,19 @@
 ---
 description: Exempel på vanliga HTTP-makrokombinationer.
 seo-description: Exempel på vanliga HTTP-makrokombinationer.
-seo-title: Exempel på makro i HTTP-format
-title: Exempel på makro i HTTP-format
+seo-title: Exempel på HTTP-formatmakro
+title: Exempel på HTTP-formatmakro
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
 translation-type: tm+mt
 source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 15%
 
 ---
 
 
-# Exempel på makro i HTTP-format {#http-format-macro-examples}
+# Exempel på HTTP-formatmakro {#http-format-macro-examples}
 
 Exempel på vanliga [!DNL HTTP] makrokombinationer.
 
