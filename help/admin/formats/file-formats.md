@@ -1,16 +1,19 @@
 ---
 description: Visar makron som du kan använda för att skapa FTP-baserade datafiler. Vissa makron kan användas för alla datafilsfält och rader. Andra makron är specifika för huvud- och datarader.
 seo-description: Visar makron som du kan använda för att skapa FTP-baserade datafiler. Vissa makron kan användas för alla datafilsfält och rader. Andra makron är specifika för huvud- och datarader.
-seo-title: Filformatmakron
-title: Filformatmakron
+seo-title: Filformatsmakron
+title: Filformatsmakron
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
 source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 2%
 
 ---
 
 
-# Filformatmakron {#file-format-macros}
+# Filformatsmakron {#file-format-macros}
 
 Visar makron som du kan använda för att skapa [!DNL FTP]baserade datafiler. Vissa makron kan användas för alla datafilsfält och rader. Andra makron är specifika för huvud- och datarader.
 
@@ -32,7 +35,7 @@ Dessa makron kan användas i alla formatfält. Exempel finns i Exempel på [filf
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
-   <td colname="col2"> <p>ID för måldataprovider. </p> </td> 
+   <td colname="col2"> <p>Target Data Provider ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MASTER_DPID</code> </p> </td> 
@@ -111,11 +114,11 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Unik användaridentifierare för datapartnern </span>. Returnerar det ID som du har tilldelat en användare/webbplatsbesökare om detta ID redan har synkroniserats med ett <span class="keyword"> Audience Manager- </span> enhets-ID. </p> <p>Om DPID är 0 returnerar det här makrot <span class="keyword"> Audience Manager- </span> ID:t i stället för användarens ID. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Unik användaridentifierare för datapartnern </span>. Returnerar det ID som du har tilldelat en användare/webbplatsbesökare om detta ID redan har synkroniserats med ett <span class="keyword"> Audience Manager- </span> enhets-ID. </p> <p>Om DPID är 0 returnerar makrot <span class="keyword"> Audience Manager- </span> ID i stället för användarens ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
-   <td colname="col2"> <p>Returnerar en lista som innehåller flera ID:n för en datapartner. Detta är användbart om du har en stor organisation med flera indelningar eller andra organisationsgrupper som du kan dela data med. Detta makro returnerar en lista över ID:n för dessa underordnade grupper. </p> </td> 
+   <td colname="col2"> <p>Returnerar en lista som innehåller flera ID:n för en datapartner. Detta är användbart om du har en stor organisation med flera indelningar eller andra organisationsgrupper som du kan dela data med. Detta makro returnerar en lista över ID:n för de underordnade grupperna. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPUUIDS</code> </p> </td> 
@@ -131,7 +134,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud </span> ID. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud ID.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
@@ -192,7 +195,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Användar-ID </span> för Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> användar-ID. </p> </td> 
   </tr> 
  </tbody> 
 </table>
