@@ -1,18 +1,21 @@
 ---
-description: Information som hjälper dig att konfigurera destinationer i Audience Manager och undvika vanliga problem.
-seo-description: Information som hjälper dig att konfigurera destinationer i Audience Manager och undvika vanliga problem.
-seo-title: Felsökning av målinställningar
-title: Felsökning av målinställningar
+description: Information som hjälper dig att skapa destinationer i Audience Manager och undvika vanliga problem.
+seo-description: Information som hjälper dig att skapa destinationer i Audience Manager och undvika vanliga problem.
+seo-title: Felsökning av destinationsinställningar
+title: Felsökning av destinationsinställningar
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 translation-type: tm+mt
 source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 2%
 
 ---
 
 
-# Felsökning av målinställningar {#destination-setup-troubleshooting}
+# Felsökning av destinationsinställningar{#destination-setup-troubleshooting}
 
-Information som hjälper dig att konfigurera destinationer i Audience Manager och undvika vanliga problem.
+Information som hjälper dig att skapa destinationer i Audience Manager och undvika vanliga problem.
 
 ## Jag ställer in ett mål, men jag ser inga filer. Var är de? {#destination-no-files}
 
@@ -53,7 +56,7 @@ Mer information om hur du ställer in format och använder makron finns i [Filfo
          * Bucket-namnet ska visas utan snedstreck, prefix, suffix osv. Om du får adressen [!DNL s3://your-bucket] behöver du bara lägga [!DNL your-bucket] till den här rutan.
       * **[!UICONTROL Directory]**
          * Lämna det här fältet tomt om du inte uttryckligen har fått en underkatalog där data ska placeras. Om du får adressen [!DNL s3://your-bucket/your-subdirectory]anger du [!DNL your-bucket] i [!UICONTROL Bucket] fältet och [!DNL your-subdirectory] läggs in i [!UICONTROL Directory] fältet. Lägg inte till föregående snedstreck.
-         * Om du behöver flytta flera kataloger nedåt i banan bör du bara använda snedstreck som avgränsare. Så en plats för [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] skulle ha [!DNL your-bucket] i [!UICONTROL Bucket] fältet och [!DNL your-subdirectory1/your-subdirectory2] angetts i [!UICONTROL Directory] fältet.
+         * Om du behöver flytta flera kataloger nedåt i banan bör du bara använda snedstreck som avgränsare. En plats för [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] skulle alltså ha [!DNL your-bucket] placerats i [!UICONTROL Bucket] fältet och [!DNL your-subdirectory1/your-subdirectory2] angetts i [!UICONTROL Directory] fältet.
       * **[!UICONTROL Access / Secret Keys]**
          * När [!DNL TechOps] skapar en bucket och ger åtkomst/hemliga nycklar till en konsult, är dessa uppgifter vanligtvis `READ-ONLY` autentiseringsuppgifter som ska skickas till klienten. Dessa autentiseringsuppgifter ska inte anges i [!UICONTROL Access / Secret Key] fälten eftersom det gör att överföringen misslyckas (eftersom autentiseringsuppgifterna är skrivskyddade och inte skrivbara). Om en bucket [!DNL TechOps] skapas och inloggningsuppgifterna tillhandahålls ska konsulten också begära ett nyckelpar från Adobe - INTE ATT GES TILL KLIENTEN - som gör det möjligt att skriva filer till den här bucket. Nyckeln ska läggas till i dessa fält.
 
@@ -72,12 +75,12 @@ Den utomordentliga processen körs två gånger dagligen och flera processer (ö
 
 ### För stora fildelningsstorlekar
 
-När du exporterar filer till mål kan du dela upp större utgående filer i filsegment. Kontrollera att de enskilda filsegmenten inte överstiger 10 GB. Se även [Namn på utgående datafil: Syntax och exempel](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
+När du exporterar filer till mål kan du dela upp större utgående filer i filsegment. Kontrollera att de enskilda filsegmenten inte överstiger 10 GB. See also, [Outbound Data File Name: Syntax and Examples](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
 
 
-## Så här konfigurerar du destinationer för att exportera Experience Cloud-ID:n, kund-ID:n eller Audience Manager-ID:n i utgående datafiler {#set-up-destinations-export}
+## Så här konfigurerar du destinationer för att exportera Experience Cloud-ID, kund-ID eller Audience Manager-ID i utgående datafiler {#set-up-destinations-export}
 
-På den här sidan visas hur du ställer in destinationer för att exportera data som är sparade från den ID-typ som du vill använda [!UICONTROL Outbound Data Files].
+This page shows you how to set up destinations to export data keyed off the ID type you want in [!UICONTROL Outbound Data Files].
 
 <!-- set-up-destinations-mcid-aamid.xml -->
 
@@ -93,7 +96,7 @@ Dina kunder vill exportera olika ID-typer beroende på destination. I konfigurat
 
    ![](assets/user_id_key.PNG)
 
-* [!UICONTROL Data Source Type]. Välj det här alternativet när du skapar ett mål i gränssnittet för Audience Manager. Först markerar du [!UICONTROL Inbound]och sedan den ID-typ du vill använda. Alternativen är:
+* [!UICONTROL Data Source Type]. Markera det här alternativet när du skapar ett mål i användargränssnittet för Audience Manager. Först markerar du [!UICONTROL Inbound]och sedan den ID-typ du vill använda. Alternativen är:
 
    ![](assets/data_source_settings.PNG)
 
@@ -117,42 +120,42 @@ Om du vill kontrollera ett format går du till **[!UICONTROL Admin UI > Formats]
   <tr> 
    <td colname="col01"> 1 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Experience Cloud-ID </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UID&gt; </p> </td> 
-   <td colname="col4"> <p>Experience Cloud-ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 2 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Experience Cloud-ID </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 3 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Experience Cloud-ID </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud-ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 4 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UID&gt; </p> </td> 
    <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 5 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud-ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 6 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
    <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
@@ -168,7 +171,7 @@ Om du vill kontrollera ett format går du till **[!UICONTROL Admin UI > Formats]
    <td colname="col1"> <p>DPID (Alla datakällor som företaget har tillgång till) </p> </td> 
    <td colname="col2"> <p>Kund-ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud-ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 9 </td> 
@@ -180,21 +183,21 @@ Om du vill kontrollera ett format går du till **[!UICONTROL Admin UI > Formats]
   <tr> 
    <td colname="col01"> 10 </td> 
    <td colname="col1"> <p>DPID (Alla datakällor som företaget har tillgång till) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UID&gt; </p> </td> 
    <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 11 </td> 
    <td colname="col1"> <p>DPID (Alla datakällor som företaget har tillgång till) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud-ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 12 </td> 
    <td colname="col1"> <p>DPID (Alla datakällor som företaget har tillgång till) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
    <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
