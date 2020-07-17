@@ -1,16 +1,19 @@
 ---
 description: Visa eller redigera behållare och mappningar för förstahandsleverantörer.
 seo-description: Visa eller redigera behållare och mappningar för förstahandsleverantörer.
-seo-title: Hantera dataproviders från första part
-title: Hantera dataproviders från första part
+seo-title: Hantera förstaparts dataleverantörer
+title: Hantera förstaparts dataleverantörer
 uuid: 222890cb-2ebd-4e16-a516-51000891ed34
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 10%
 
 ---
 
 
-# Hantera dataproviders från första part {#manage-first-party-data-providers}
+# Hantera förstaparts dataleverantörer {#manage-first-party-data-providers}
 
 Visa eller redigera behållare och mappningar för förstahandsleverantörer.
 
