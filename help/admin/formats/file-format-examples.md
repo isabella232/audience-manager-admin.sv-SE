@@ -6,6 +6,9 @@ title: Exempel på filformatsmakro
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
 translation-type: tm+mt
 source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 5%
 
 ---
 
