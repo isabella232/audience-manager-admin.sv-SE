@@ -1,18 +1,21 @@
 ---
-description: Använd sidan Servrar i Audience Manager Admin-verktyget för att skapa en ny HTTP-server eller för att redigera en befintlig server.
-seo-description: Använd sidan Servrar i Audience Manager Admin-verktyget för att skapa en ny HTTP-server eller för att redigera en befintlig server.
+description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny HTTP-server eller för att redigera en befintlig server.
+seo-description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny HTTP-server eller för att redigera en befintlig server.
 seo-title: Skapa eller redigera en HTTP-server
 title: Skapa eller redigera en HTTP-server
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 5%
 
 ---
 
 
 # Skapa eller redigera en HTTP-server {#create-or-edit-an-http-server}
 
-Använd [!UICONTROL Servers] sidan i Audience Manager Admin-verktyget för att skapa en ny HTTP-server eller för att redigera en befintlig server.
+Använd [!UICONTROL Servers] sidan i administrationsverktyget för Audience Manager för att skapa en ny HTTP-server eller för att redigera en befintlig server.
 
 >[!NOTE]
 >
@@ -45,6 +48,7 @@ Använd [!UICONTROL Servers] sidan i Audience Manager Admin-verktyget för att s
    * **[!UICONTROL HTTP Signature Key]:**Nyckeln som används för att signera[!DNL HTTP]begäran, som tillhandahålls av kunden.
    * **[!UICONTROL Show Signature Key]:**Växla om signaturen ska visas i webbläsaren eller inte.
    * **[!UICONTROL HTTP Signature Encryption Method]:**Ange den metod som vi använder för att kryptera signaturen. Använd[!UICONTROL SHA1]om inte kunden föredrar något annat.
+
    >[!NOTE]
    >
    >Om du vill aktivera [OAuth 2.0-autentisering för dataöverföringar](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html) i realtid för en partner fyller du i fälten som i tabellen nedan. Fälten i *kursiv* text måste fyllas i exakt som i tabellen.
