@@ -6,6 +6,9 @@ title: Hantera företagsanvändare
 uuid: 32c8a4e1-c29c-44d2-8cd4-f4f1be707492
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 3%
 
 ---
 
@@ -28,11 +31,11 @@ Skapa nya Audience Manager-användare eller redigera och ta bort befintliga anv�
 
    * **[!UICONTROL First Name]**: (Obligatoriskt) Ange användarens förnamn.
    * **[!UICONTROL Last Name]**: (Obligatoriskt) Ange användarens efternamn.
-   * **[!UICONTROL Username]**: (Obligatoriskt) Ange användarens användarnamn för Audience Manager. Användarnamn måste vara unika.
+   * **[!UICONTROL Username]**: (Obligatoriskt) Ange användarens Audience Manager-användarnamn. Användarnamn måste vara unika.
    * **[!UICONTROL Email Address]**: (Obligatoriskt) Ange användarens e-postadress.
    * **[!UICONTROL Phone Number]**: Ange användarens telefonnummer.
    * **[!UICONTROL IMS ID]**: Användarens [!UICONTROL Identity Management System ID]. Med detta ID kan användaren länka till Adobes lösningar i Adobe Experience Cloud.
-   * **[!UICONTROL Is Admin]**: Gör den här användaren till en administrativ användare i Audience Manager. En administratör har alla användarroller för Audience Manager för den här partnern.
+   * **[!UICONTROL Is Admin]**: Gör den här användaren till en Audience Manager-administrativ användare. En administratör har alla användarroller i Audience Manager för den här partnern.
    * **[!UICONTROL Status]**: När du skapar en ny användare visas det här fältet som **[!UICONTROL Pending]** tills användaren loggar in och återställer det tillfälliga lösenordet. Om du redigerar en befintlig användare kan du välja mellan följande statusvärden:
       * **[!UICONTROL Active]**: Anger att den här användaren är en aktiv Audience Manager-användare.
       * **[!UICONTROL Deactivated]**: Anger att den här användaren är en inaktiverad Audience Manager-användare.
