@@ -6,6 +6,9 @@ title: Alternativ för enhetsdiagram för företag
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 3%
 
 ---
 
@@ -48,6 +51,6 @@ De här kryssrutorna aktiveras i [!DNL Admin UI] när en partner skapar en [!UIC
 
 >[!MORELIKETHIS]
 >
->* [Alternativ för profilkopplingsregel definierade](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
+>* [Beskrivning av alternativen för regler för profilsammanslagning](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
 >* [Inställningar för datakälla och menyalternativ](https://marketing.adobe.com/resources/help/en_US/aam/datasource-settings-definitions.html)
 
