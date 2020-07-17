@@ -1,18 +1,21 @@
 ---
-description: Redigera informationen om din Audience Manager Admin-profil eller ändra ditt lösenord.
-seo-description: Redigera informationen om din Audience Manager Admin-profil eller ändra ditt lösenord.
+description: Redigera informationen om din Audience Manager Admin-verktygsprofil eller ändra ditt lösenord.
+seo-description: Redigera informationen om din Audience Manager Admin-verktygsprofil eller ändra ditt lösenord.
 seo-title: Min profil
 title: Min profil
 uuid: ccaa611d-c855-484e-9696-081d9b4e0935
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 3%
 
 ---
 
 
 # Min profil {#my-profile}
 
-Redigera informationen om din Audience Manager Admin-profil eller ändra ditt lösenord.
+Redigera informationen om din Audience Manager Admin-verktygsprofil eller ändra ditt lösenord.
 
 <!-- c_my_profile.xml -->
 
@@ -34,15 +37,15 @@ Visa och redigera din Audience Manager Admin-verktygsprofil, inklusive för- och
    * **[!UICONTROL Phone Number]:**Ange ditt telefonnummer.
    * **[!UICONTROL IMS ID]:**Ange ditt ID för Internet Messaging Service.
    * **[!UICONTROL User Roles]:**Välj önskade användarroller:
-      * **[!UICONTROL DEXADMIN]:**Ger administratörsåtkomst för att utföra uppgifter i Audience Manager Admin Tool. Om du inte markerar det här alternativet kan du välja enskilda roller. Med de här rollerna kan användare utföra uppgifter med hjälp av[!DNL API]anrop, men inte med hjälp av administrationsverktyget.
+      * **[!UICONTROL DEXADMIN]:**Ger administratörsåtkomst för att utföra åtgärder i verktyget Audience Manager Admin. Om du inte markerar det här alternativet kan du välja enskilda roller. Med de här rollerna kan användare utföra uppgifter med hjälp av[!DNL API]anrop, men inte med hjälp av administrationsverktyget.
       * **[!UICONTROL CREATE_USERS]:**Tillåter användare att skapa nya användare med ett[!DNL API]samtal.
       * **[!UICONTROL DELETE_USERS]:**Tillåter användare att ta bort befintliga användare med ett[!DNL API]samtal.
       * **[!UICONTROL EDIT_USERS]:**Tillåter användare att redigera befintliga användare med ett[!DNL API]samtal.
-      * **[!UICONTROL VIEW_USERS]:**Låter användarna visa andra användare i Audience Manager-konfigurationen med hjälp av ett[!DNL API]samtal.
+      * **[!UICONTROL VIEW_USERS]:**Låter användare visa andra användare i din Audience Manager-konfiguration med hjälp av ett[!DNL API]samtal.
       * **[!UICONTROL CREATE_PARTNERS]:**Användare kan skapa Audience Manager-partners med hjälp av ett[!DNL API]samtal.
-      * **[!UICONTROL DELETE_PARTNERS]:**Tillåter användare att ta bort Audience Manager-partners med hjälp av ett[!DNL API]samtal.
-      * **[!UICONTROL EDIT_PARTNERS]:**Låter användarna redigera Audience Manager-partners med hjälp av ett[!DNL API]samtal.
-      * **[!UICONTROL VIEW_PARNTERS]:**Låter användarna visa Audience Manager-partners med hjälp av ett[!DNL API]samtal.
+      * **[!UICONTROL DELETE_PARTNERS]:**Användare kan ta bort Audience Manager-partners med hjälp av ett[!DNL API]samtal.
+      * **[!UICONTROL EDIT_PARTNERS]:**Användare kan redigera Audience Manager-partners med hjälp av ett[!DNL API]samtal.
+      * **[!UICONTROL VIEW_PARNTERS]:**Låter användare visa Audience Manager-partners med hjälp av ett[!DNL API]samtal.
    * **[!UICONTROL Status]:**Välj önskad status:
       * **[!UICONTROL Active]:**Anger att den här användaren är en aktiv Audience Manager-användare.
       * **[!UICONTROL Deactivated]:**Anger att den här användaren är en inaktiverad användare i Audience Management.
@@ -52,7 +55,7 @@ Visa och redigera din Audience Manager Admin-verktygsprofil, inklusive för- och
 
 ## Ändra lösenord {#change-password}
 
-Ändra lösenordet för Audience Manager Admin Tool.
+Ändra lösenordet för verktyget Audience Manager Admin.
 
 <!-- t_change_password.xml -->
 
@@ -61,7 +64,7 @@ Visa och redigera din Audience Manager Admin-verktygsprofil, inklusive för- och
 
    ![](assets/change_password.png)
 
-   Ditt lösenord för Audience Manager måste vara:
+   Ditt Audience Manager-lösenord måste vara:
 
    * Minst åtta tecken långa.
    * innehålla minst en versal,
