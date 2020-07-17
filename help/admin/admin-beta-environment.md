@@ -1,19 +1,22 @@
 ---
-description: Betamiljön används för att testa implementeringar av Audience Manager. Ändringar som görs i betaversionen påverkar inte produktionsdata. Audience Manager beta-miljön är en mindre, fristående version av produktionsmiljön. Alla data som du vill testa måste anges och samlas in i den här miljön.
-seo-description: Betamiljön används för att testa implementeringar av Audience Manager. Ändringar som görs i betaversionen påverkar inte produktionsdata. Audience Manager beta-miljön är en mindre, fristående version av produktionsmiljön. Alla data som du vill testa måste anges och samlas in i den här miljön.
-seo-title: Beta Environment
+description: Betamiljön används för att testa implementeringar av Audience Manager. Ändringar som görs i betaversionen påverkar inte produktionsdata. Audience Manager betamiljön är en mindre, fristående version av produktionsmiljön. Alla data som du vill testa måste anges och samlas in i den här miljön.
+seo-description: Betamiljön används för att testa implementeringar av Audience Manager. Ändringar som görs i betaversionen påverkar inte produktionsdata. Audience Manager betamiljön är en mindre, fristående version av produktionsmiljön. Alla data som du vill testa måste anges och samlas in i den här miljön.
+seo-title: Beta-miljö
 solution: Audience Manager
-title: Beta Environment
+title: Beta-miljö
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 translation-type: tm+mt
 source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 2%
 
 ---
 
 
-# Beta Environment {#beta-environment}
+# Beta-miljö {#beta-environment}
 
-Betamiljön används för att testa implementeringar av Audience Manager. Ändringar som görs i betaversionen påverkar inte produktionsdata. Audience Manager beta-miljön är en mindre, fristående version av produktionsmiljön. Alla data som du vill testa måste anges och samlas in i den här miljön.
+Betamiljön används för att testa implementeringar av Audience Manager. Ändringar som görs i betaversionen påverkar inte produktionsdata. Audience Manager betamiljön är en mindre, fristående version av produktionsmiljön. Alla data som du vill testa måste anges och samlas in i den här miljön.
 
 ## Översikt {#overview}
 
@@ -36,8 +39,8 @@ Så här etablerar du [!DNL S3] grupper för inkommande data:
 
 1. Använd hjälpfunktionen [**SKMS Request TechOps **](https://skms.adobe.com/).
 1. Gå till **[!UICONTROL Request TechOps Help]** vänster navigeringsfält.
-1. I **[!UICONTROL Request Search]** skriver du i Audience Manager i sökfältet.
-1. Bläddra nedåt i sökresultaten och klicka på **Audience Manager - S3 Inbound/Outbound Account Provisioning**.
+1. I **[!UICONTROL Request Search]** skriver du Audience Manager i sökfältet.
+1. Bläddra nedåt i sökresultaten och klicka på **Audience Manager - Inkommande/utgående kontoetablering**.
 1. Fyll i fälten i provisioneringsfönstret och ange **sandlådemiljö** i **[!UICONTROL Environment]** fältet.
 
 >[!NOTE]
