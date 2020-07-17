@@ -6,13 +6,16 @@ title: Krav och rekommendationer för API
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 3%
 
 ---
 
 
 # Krav och rekommendationer för API {#api-requirements-and-recommendations}
 
-Det ni bör uppmuntra era kunder att vara medvetna om när de arbetar med Audience Manager [!DNL API]s.
+Det är saker du bör uppmuntra dina kunder att vara medvetna om när de arbetar med Audience Manager [!DNL API].
 
 ## Krav {#requirements}
 
@@ -29,7 +32,7 @@ Observera följande när du arbetar med [!DNL Audience Manager][!DNL API] kod:
 
 ## Rekommendationer: Skapa en allmän API-användare {#recommendations}
 
-Vi rekommenderar att du skapar ett separat, tekniskt användarkonto för Audience Manager [!DNL API]. Det här är ett generiskt konto som inte är kopplat till eller associerat med en viss användare i din klientorganisation. Med den här typen av [!DNL API] användarkonto kan du uppnå två saker:
+Vi rekommenderar att du skapar ett separat, tekniskt användarkonto för att arbeta med Audience Manager [!DNL API]. Det här är ett generiskt konto som inte är kopplat till eller associerat med en viss användare i din klientorganisation. Med den här typen av [!DNL API] användarkonto kan du uppnå två saker:
 
 * Identifiera vilken tjänst som anropar [!DNL API] (t.ex. samtal från en klientapp som använder våra [!DNL API]funktioner eller från att göra satsförändringar).
 * Ge dig tillgång till [!DNL API]dina kunder utan avbrott. Ett konto som är knutet till en viss anställd kan tas bort när de lämnar företaget. Detta förhindrar dina kunder från att arbeta med den tillgängliga [!DNL API] koden. Ett generiskt konto som inte är kopplat till en viss medarbetare hjälper till att undvika det här problemet.
