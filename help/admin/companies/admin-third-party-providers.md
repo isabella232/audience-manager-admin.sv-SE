@@ -1,16 +1,19 @@
 ---
 description: Visa eller redigera behållare och mappningar för tredjeparts dataleverantörer. Du kan också aktivera delning med olika dataleverantörer.
 seo-description: Visa eller redigera behållare och mappningar för tredjeparts dataleverantörer. Du kan också aktivera delning med olika dataleverantörer.
-seo-title: Hantera dataproviders från tredje part
-title: Hantera dataproviders från tredje part
+seo-title: Hantera tredjeparts dataleverantörer
+title: Hantera tredjeparts dataleverantörer
 uuid: e41dc7b2-8b06-4e81-9b3b-0f70e2fd3275
 translation-type: tm+mt
 source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 5%
 
 ---
 
 
-# Hantera dataproviders från tredje part {#manage-third-party-data-providers}
+# Hantera tredjeparts dataleverantörer {#manage-third-party-data-providers}
 
 Visa eller redigera behållare och mappningar för tredjeparts dataleverantörer. Du kan också aktivera delning med olika dataleverantörer.
 
@@ -29,6 +32,7 @@ Visa eller redigera behållare och mappningar för tredjeparts dataleverantörer
 
    * **Överlappning på partnernivå:**
    * **Modellanvändning aktiverad:** Tillåter det här företaget att använda den här DataProvider när algoritmiska modeller skapas.
+
    När du aktiverar delning får du åtkomst till egenskaper från den här DataProvider.
 
 1. (Villkorligt) Om behållaren är aktiverad för den här providern kan du välja behållare för den här DataProvider genom att flytta de önskade behållarna från den tillgängliga listan till den valda listan.
