@@ -1,6 +1,6 @@
 ---
-description: Använd serversidan i Audience Manager Admin-verktyget för att skapa en ny FTP-server eller för att redigera en befintlig server.
-seo-description: Använd serversidan i Audience Manager Admin-verktyget för att skapa en ny FTP-server eller för att redigera en befintlig server.
+description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny FTP-server eller för att redigera en befintlig server.
+seo-description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny FTP-server eller för att redigera en befintlig server.
 seo-title: Skapa eller redigera en FTP-server
 title: Skapa eller redigera en FTP-server
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Skapa eller redigera en FTP-server {#create-or-edit-an-ftp-server}
 
-Använd [!UICONTROL Servers] sidan i Audience Manager Admin-verktyget för att skapa en ny FTP-server eller redigera en befintlig server.
+Använd [!UICONTROL Servers] sidan i administrationsverktyget för Audience Manager för att skapa en ny FTP-server eller för att redigera en befintlig server.
 
 >[!NOTE]
 >
@@ -34,11 +34,12 @@ Använd [!UICONTROL Servers] sidan i Audience Manager Admin-verktyget för att s
    * **[!UICONTROL Type]:**Välj önskad krypteringstyp:**[!UICONTROL SFTP]**eller **[!UICONTROL FTPs/TLS]**.
    * **[!UICONTROL Domain]:**Ange önskad domän (värd) för den här servern.
    * **[!UICONTROL Port]:**Ange önskad port för den här servern. Standardporten visas för varje krypteringstyp. Du kan ändra standardporten om det behövs.
-   * **[!UICONTROL Remote Path]:**Ange önskad fjärrsökväg för den här servern. Om du låter fältet vara tomt placeras filerna i standardkatalogen.
+   * **[!UICONTROL Remote Path]:**Ange önskad fjärrsökväg för den här servern. Om du låter det här fältet vara tomt placerar Audience Manager filerna i standardkatalogen.
    * **[!UICONTROL .tmp File Rename on Completion]:**Aktivera det här alternativet om du vill byta namn på`.tmp`filen när den är klar.
    * **[!UICONTROL Filename Suffix]:**Ange den text som du vill ska läggas till för att överföra filer.
    * **[!UICONTROL Moved to When Finished]:**Ange sökvägen till den plats där du vill att överföringsfilen ska flyttas när den är klar.
    * **[!UICONTROL Authentication]:**Ange önskad metod för serverautentisering:**[!UICONTROL Username/Password]**eller **[!UICONTROL SSH Key]**.
+
    >[!NOTE]
    >
    >Kom ihåg att lägga till vår utgång [!DNL FTP] [!DNL IP] i din lista över tillåtna IP-adresser: **52.44.29.204**.
