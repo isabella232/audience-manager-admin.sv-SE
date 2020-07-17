@@ -1,16 +1,19 @@
 ---
 description: Du kan aktivera utgående batchöverföringar av binära Hadoop-sekvensfiler (SEQ) för Audience Manager-kunder.
 seo-description: Du kan aktivera utgående batchöverföringar av binära Hadoop-sekvensfiler (SEQ) för Audience Manager-kunder.
-seo-title: Aktivera filöverföringar för Hadoop-sekvensöverföring för utgående
-title: Aktivera filöverföringar för Hadoop-sekvensöverföring för utgående
+seo-title: Aktivera Hadoop-sekvens för utgående filöverföringar
+title: Aktivera Hadoop-sekvens för utgående filöverföringar
 uuid: 301985b1-5ff6-4112-a353-2e5a97e7eec0
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 18%
 
 ---
 
 
-# Aktivera filöverföringar för Hadoop-sekvensöverföring för utgående {#enable-hadoop-sequence-file-transfers-for-outbound}
+# Aktivera Hadoop-sekvens för utgående filöverföringar {#enable-hadoop-sequence-file-transfers-for-outbound}
 
 Du kan aktivera binära [!DNL Hadoop Sequence Files] ([!DNL SEQ]) utgående batchöverföringar för Audience Manager-kunder.
 
