@@ -5,9 +5,9 @@ seo-title: OAuth2-klienter
 title: OAuth2-klienter
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 translation-type: tm+mt
-source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Använd [!UICONTROL OAuth2 Clients] sidan för att visa en lista över [!UICONTR
 
 >[!NOTE]
 >
->Se till att kunden läser [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) -dokumentationen i användarhandboken för [!DNL Audience Manager.
+>Se till att kunden läser [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) -dokumentationen i användarhandboken för Audience Manager.
 
 [!DNL OAuth2] är en öppen standard för auktorisering som ger skyddad delegerad åtkomst till [!DNL Audience Manager] resurser för en resursägares räkning.
 
