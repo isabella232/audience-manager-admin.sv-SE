@@ -5,7 +5,7 @@ seo-title: Filformatsmakron
 title: Filformatsmakron
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
-source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Dessa makron kan användas i alla formatfält. Exempel finns i Exempel på [filf
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
-   <td colname="col2"> <p>Target Data Provider ID. </p> </td> 
+   <td colname="col2"> <p>ID för måldataprovider. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MASTER_DPID</code> </p> </td> 
@@ -106,7 +106,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Infogar ett avslutande klammerparentes }-tecken. </p> </td> 
+   <td colname="col2"> <p>Infogar en avslutande klammerparentes <code>}</code> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -138,7 +138,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Infogar en öppen klammerparentes {-tecken. </p> </td> 
+   <td colname="col2"> <p>Infogar en öppen klammerparentes <code>{</code> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
