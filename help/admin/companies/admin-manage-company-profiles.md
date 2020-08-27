@@ -5,9 +5,9 @@ seo-title: Skapa en företagsprofil
 title: Skapa en företagsprofil
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
 translation-type: tm+mt
-source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '955'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Använd [!UICONTROL Companies] sidan i administrationsverktyget för Audience Ma
 
       Om ditt företag till exempel har ett namn [!DNL AcmeCorp]blir underdomänen [!DNL acmecorp].
 
-      Audience Manager använder underdomänen för [!UICONTROL Data Collection Server]([!UICONTROL DCS]). I det föregående exemplet, om ditt företag är fullt [!DNL URL] i [!UICONTROL DCS] blir det [!DNL acmecorp.demdex.net].
+      Audience Manager använder underdomänen för [!UICONTROL Data Collection Server] (DCS). I det föregående exemplet, om ditt företag är fullt [!DNL URL] i [!UICONTROL DCS] blir det [!DNL acmecorp.demdex.net].
 
    * **[!UICONTROL Lifecyle]**: Ange önskat stadium för företaget:
       * **[!UICONTROL Active]**: Ange att företaget ska vara en aktiv Audience Manager-klient. Ett [!UICONTROL Active] konto innebär en betalande kund, inte bara för konsulttjänster, utan för SKU:n Audience Manager.
@@ -78,7 +78,7 @@ Redigera ett företags profil, inklusive namn, beskrivning, underdomän, livscyk
 
       Om ditt företag till exempel har ett namn [!DNL AcmeCorp]blir underdomänen [!DNL acmecorp].
 
-      Audience Manager använder underdomänen för [!UICONTROL Data Collection Server] ([!UICONTROL DCS]). I det föregående exemplet, om ditt företag är fullt [!DNL URL] i [!UICONTROL DCS] blir det [!DNL acmecorp.demdex.net].
+      Audience Manager använder underdomänen för [!UICONTROL Data Collection Server] (DCS). I det föregående exemplet, om ditt företag är fullt [!DNL URL] i [!UICONTROL DCS] blir det [!DNL acmecorp.demdex.net].
 
    * **[!UICONTROL imsOrgld]**: ([!UICONTROL Identity Management System Organization ID]) Med detta ID kan du ansluta ditt företag till Adobe Experience Cloud.
    * **[!UICONTROL Lifecyle]**: Ange önskat stadium för företaget:
