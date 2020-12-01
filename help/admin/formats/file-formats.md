@@ -15,11 +15,11 @@ ht-degree: 2%
 
 # Filformatsmakron {#file-format-macros}
 
-Visar makron som du kan använda för att skapa [!DNL FTP]baserade datafiler. Vissa makron kan användas för alla datafilsfält och rader. Andra makron är specifika för huvud- och datarader.
+Visar makron som du kan använda för att skapa [!DNL FTP]-baserade datafiler. Vissa makron kan användas för alla datafilsfält och rader. Andra makron är specifika för huvud- och datarader.
 
 ## Vanliga makron {#common-macros}
 
-Dessa makron kan användas i alla formatfält. Exempel finns i Exempel på [filformatsmakro](../formats/file-format-examples.md).
+Dessa makron kan användas i alla formatfält. Exempel finns i [Exempel på filformatsmakro](../formats/file-format-examples.md).
 
 <table id="table_A3309E175ABF4651BD11CE3632B3C553"> 
  <thead> 
@@ -47,7 +47,7 @@ Dessa makron kan användas i alla formatfält. Exempel finns i Exempel på [filf
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PIDALIAS</code> </p> </td> 
-   <td colname="col2"> <p>Ett alias för ett order-/mål-ID. </p> <p>Värdet för det här aliaset anges i <span class="wintitle"> fältet Sekundärt konto-ID </span> för ett mål (i <span class="wintitle"> avsnittet Grundinställningar </span> ). </p> </td> 
+   <td colname="col2"> <p>Ett alias för ett order-/mål-ID. </p> <p>Värdet för det här aliaset anges i fältet <span class="wintitle"> Sekundärt konto-ID </span> för ett mål (i avsnittet <span class="wintitle"> Grundinställningar </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SYNC_MODE</code> </p> </td> 
@@ -68,14 +68,14 @@ Dessa makron kan användas i alla formatfält. Exempel finns i Exempel på [filf
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIMESTAMP</code> </p> </td> 
-   <td colname="col2"> <p>En 10-siffrig UTC-, Unix-tidsstämpel. </p> <p>Den kan även formateras som <code>YYYYMMDDhhmmss</code> följande formateringsregler för Java-datum/tidsstämpel. </p> </td> 
+   <td colname="col2"> <p>En 10-siffrig UTC-, Unix-tidsstämpel. </p> <p>Den kan också formateras som <code>YYYYMMDDhhmmss</code> enligt formateringsreglerna för Java-datum/tidsstämpel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Makron för rubrikfält {#header-field-macros}
+## Huvudfältmakron {#header-field-macros}
 
-Makron används endast i rubrikfält. Exempel finns i Exempel på [filformatsmakro](../formats/file-format-examples.md).
+Makron används endast i rubrikfält. Exempel finns i [Exempel på filformatsmakro](../formats/file-format-examples.md).
 
 <table id="table_1A8BD1750F4940B3A34E3F80371A447A"> 
  <thead> 
@@ -94,7 +94,7 @@ Makron används endast i rubrikfält. Exempel finns i Exempel på [filformatsmak
 
 ## Dataradmakron {#data-row-macros}
 
-Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro](../formats/file-format-examples.md).
+Makron används endast i datarader. Exempel finns i [Exempel på filformatsmakro](../formats/file-format-examples.md).
 
 <table id="table_E378F94A3907407AA8110C8EE6C10909"> 
  <thead> 
@@ -106,7 +106,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Infogar en avslutande klammerparentes <code>}</code> . </p> </td> 
+   <td colname="col2"> <p>Infogar en avslutande klammerparentes <code>}</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -114,7 +114,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Unik användaridentifierare för datapartnern </span>. Returnerar det ID som du har tilldelat en användare/webbplatsbesökare om detta ID redan har synkroniserats med ett <span class="keyword"> Audience Manager- </span> enhets-ID. </p> <p>Om DPID är 0 returnerar makrot <span class="keyword"> Audience Manager- </span> ID i stället för användarens ID. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Unik användaridentifierare för datapartnern  </span>. Returnerar det ID som du har tilldelat en användare/webbplatsbesökare om detta ID redan har synkroniserats med ett <span class="keyword"> Audience Manager </span> enhets-ID. </p> <p>Om DPID är 0 returnerar makrot <span class="keyword"> Audience Manager </span>-ID i stället för användarens ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -122,11 +122,11 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPUUIDS</code> </p> </td> 
-   <td colname="col2"> <p>Utdata för det här makrot mappar DataProvider ID (DPID) till relaterade unika användar-ID:n (DPUID). Detta makro måste ha en formateringssträng för att styra utdata. Exempelutdata skulle se ut ungefär så här: </p> <p> <code>"dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json"</code> </p> <p>Inställningen anger <code>maxMappings</code> hur många mappningar du vill att makrot ska returnera. När <code>maxMappings=0</code>det här makrot returnerar alla mappningar för varje angivet DPID. Data sorteras efter tidsstämpel (senaste först) och returnerar resultat med den största tidsstämpeln först. </p> </td> 
+   <td colname="col2"> <p>Utdata för det här makrot mappar DataProvider ID (DPID) till relaterade unika användar-ID:n (DPUID). Detta makro måste ha en formateringssträng för att styra utdata. Exempelutdata skulle se ut ungefär så här: </p> <p> <code>"dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json"</code> </p> <p>Inställningen <code>maxMappings</code> anger hur många mappningar du vill att makrot ska returnera. När <code>maxMappings=0</code> returnerar makrot alla mappningar för varje angivet DPID. Data sorteras efter tidsstämpel (senaste först) och returnerar resultat med den största tidsstämpeln först. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>endif</code> </p> </td> 
-   <td colname="col2"> <p>Krävs när du använder villkorsstyrda <code>if</code> makron samt <code>SEGMENT_LIST</code> - och <code>REMOVED_SEGMENT_LIST</code> -makron. </p> </td> 
+   <td colname="col2"> <p>Krävs när du använder villkorsstyrda <code>if</code>- och <code>SEGMENT_LIST</code>-makron och <code>REMOVED_SEGMENT_LIST</code>-makron. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif</code> </p> </td> 
@@ -138,7 +138,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Infogar en öppen klammerparentes <code>{</code> . </p> </td> 
+   <td colname="col2"> <p>Infogar en inledande klammerparentes <code>{</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -154,7 +154,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PID</code> </p> </td> 
-   <td colname="col2"> <p>Partner-ID (PID). PID:t visas under <span class="wintitle"> fliken Profil </span> i administratörsgränssnittet. </p> </td> 
+   <td colname="col2"> <p>Partner-ID (PID). PID visas under fliken <span class="wintitle"> Profil </span> i administratörsgränssnittet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -167,7 +167,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
      <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>: Äldre ID. Föråldrat. Använd <code>sid</code> (endast gemener). </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>: Äldre ID. Föråldrat. Använd <code>sid</code> (endast gemener). </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>: Segment-ID. </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>: Returnerar <code>5</code>ett statiskt, hårdkodat värde som identifierar data som segmentdata. </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>: Returnerar  <code>5</code>ett statiskt, hårdkodat värde som identifierar data som segmentdata. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>: Mappning av segmentet. Föråldrat. Använd <code>sid</code> (endast gemener). </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>: En Unix-tidsstämpel som anger när ett segment senast realiserades. </li> 
     </ul> <p>Placera dessa variabler inom klammerparentes efter makrot. I den här koden avgränsas resultatet med ett vertikalstreck (|): <code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
@@ -187,7 +187,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
      <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code>: Trait-typer som identifieras av ett numeriskt ID. Den här variabeln returnerar: 
       <ul id="ul_C9839266783D42CCADAAC3FEA33BE4D7"> 
        <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code> som identifierar en DPM-egenskap (offline, tilldelad av ett inkommande jobb). </li> 
-       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> som identifierar en regelbaserad egenskap (realtid, via <span class="wintitle"> DCS </span>). </li> 
+       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> som identifierar en regelbaserad egenskap (realtid, via  <span class="wintitle"> DCS  </span>). </li> 
       </ul> </li> 
      <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>: Trait ID. </li> 
      <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>: Sist trait realiserades. Unix tidsstämpel. </li> 
@@ -195,7 +195,7 @@ Makron används endast i datarader. Exempel finns i Exempel på [filformatsmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> användar-ID. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> användar-ID. </p> </td> 
   </tr> 
  </tbody> 
 </table>
