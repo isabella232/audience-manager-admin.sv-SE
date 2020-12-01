@@ -1,6 +1,6 @@
 ---
-description: Du kan aktivera utgående batchöverföringar av binära Hadoop-sekvensfiler (SEQ) för Audience Manager-kunder.
-seo-description: Du kan aktivera utgående batchöverföringar av binära Hadoop-sekvensfiler (SEQ) för Audience Manager-kunder.
+description: Du kan aktivera binära utgående batchöverföringar av Hadoop Sequence Files (SEQ) för Audience Manager-kunder.
+seo-description: Du kan aktivera binära utgående batchöverföringar av Hadoop Sequence Files (SEQ) för Audience Manager-kunder.
 seo-title: Aktivera Hadoop-sekvens för utgående filöverföringar
 title: Aktivera Hadoop-sekvens för utgående filöverföringar
 uuid: 301985b1-5ff6-4112-a353-2e5a97e7eec0
@@ -21,8 +21,8 @@ Du kan aktivera binära [!DNL Hadoop Sequence Files] ([!DNL SEQ]) utgående batc
 
 Så här aktiverar du [!DNL SEQ] utgående filöverföringar:
 
-1. Välj det företag och den destination som du vill aktivera [!DNL SEQ] utgående filöverföringar för.
-1. Bläddra nedåt i **[!UICONTROL Edit Destinations]** gränssnittet till **[!UICONTROL Batch Data]**.
+1. Välj det företag och det mål som du vill aktivera [!DNL SEQ] utgående filöverföringar för.
+1. Bläddra nedåt till **[!UICONTROL Batch Data]** i gränssnittet **[!UICONTROL Edit Destinations]**.
 1. Välj protokoll: **[!UICONTROL FTP]** eller **[!UICONTROL S3]**.
 1. Välj format: **[!UICONTROL AAM-Outbound-SEQ (415)]**.
-1. Bekräfta genom att klicka **[!UICONTROL Save]** längst ned på sidan. Kunden kan nu skicka Hadoop-sekvensfiler till målet.
+1. Bekräfta genom att klicka på **[!UICONTROL Save]** längst ned på sidan. Kunden kan nu skicka Hadoop Sequence-filer till målet.
