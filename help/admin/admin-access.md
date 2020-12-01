@@ -15,16 +15,16 @@ ht-degree: 10%
 
 # Begära funktionell administratörsåtkomst {#how-to-request-functional-admin-access}
 
-Logga in på [!UICONTROL Identity & Access Management] portalen i [!UICONTROL Inside Adobe] för att begära [!UICONTROL Functional Admin Access] och följ stegen som beskrivs nedan.
+Logga in på [!UICONTROL Identity & Access Management]-portalen i [!UICONTROL Inside Adobe] för att begära [!UICONTROL Functional Admin Access] och följ stegen som beskrivs nedan.
 
 <!-- request-functional-admin-access.xml -->
 
-1. Logga in på portalen [för hantering](https://iam.corp.adobe.com) av identitet och åtkomst.
+1. Logga in på [identitets- och åtkomsthanteringsportalen](https://iam.corp.adobe.com).
 2. Gå till **[!UICONTROL Accounts]** > **[!UICONTROL Access Requests]**.
-3. Klicka i [!UICONTROL Request Access] avsnittet **[!UICONTROL Select an Access Request Type]**.
-4. Välj om du begär åtkomst för dig själv eller någon annan. Om du begär åtkomst för någon annan anger du deras Adobe ID i det dedikerade fältet och klickar på **[!UICONTROL Find User]**.
+3. Klicka på **[!UICONTROL Select an Access Request Type]** i [!UICONTROL Request Access]-avsnittet.
+4. Välj om du begär åtkomst för dig själv eller någon annan. Om du begär åtkomst för någon annan anger du hans/hennes Adobe ID i det dedikerade fältet och klickar på **[!UICONTROL Find User]**.
 5. Välj **[!UICONTROL Digital Marketing]** i åtkomsttypslistan.
-6. På **[!UICONTROL Manage Digital Marketing Access]** sidan väljer du **[!UICONTROL Request Admin Console Access]** i listrutan och klickar på **[!UICONTROL Next/Submit]**.
-7. På **[!UICONTROL Request Admin Console Access - Console]** sidan väljer du **[!UICONTROL AAM]** i listrutan och klickar på **[!UICONTROL Next/Submit]**.
-8. I **[!UICONTROL Request Admin Console Access - Groups]** fönstret väljer du **[!UICONTROL AAM Functional Admin - General Access]** i **[!UICONTROL Available Entitlements]** listan och fyller i en **[!UICONTROL Business Justification]** blankett. Bekräfta begäran genom att klicka **[!UICONTROL Next/Submit]**.
+6. På sidan **[!UICONTROL Manage Digital Marketing Access]** väljer du **[!UICONTROL Request Admin Console Access]** i listrutan och klickar på **[!UICONTROL Next/Submit]**.
+7. På sidan **[!UICONTROL Request Admin Console Access - Console]** väljer du **[!UICONTROL AAM]** i listrutan och klickar på **[!UICONTROL Next/Submit]**.
+8. I fönstret **[!UICONTROL Request Admin Console Access - Groups]** väljer du **[!UICONTROL AAM Functional Admin - General Access]** i **[!UICONTROL Available Entitlements]**-listan och fyller i en **[!UICONTROL Business Justification]** för din begäran. Bekräfta begäran genom att klicka på **[!UICONTROL Next/Submit]**.
 9. Din begäran måste godkännas innan du har administratörsåtkomst.
