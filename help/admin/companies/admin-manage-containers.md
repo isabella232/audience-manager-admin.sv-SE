@@ -23,11 +23,11 @@ Visa eller redigera dataleverantörer för behållare.
 >
 >Som standard skapas företag med en behållare. Du kan skapa ytterligare behållare för ett företag i användargränssnittet i **[!UICONTROL Tools > Tags]**.
 
-1. Klicka **[!UICONTROL Companies]** och sedan på önskat företag för att visa dess [!UICONTROL Profile] sida.
+1. Klicka på **[!UICONTROL Companies]**, leta upp och klicka sedan på önskat företag för att visa dess [!UICONTROL Profile]-sida.
 
-   Använd [!UICONTROL Search] rutan eller sidnumreringskontrollerna längst ned i listan för att hitta önskat företag. Du kan sortera varje kolumn i stigande eller fallande ordning genom att klicka på den önskade kolumnens rubrik.
+   Använd rutan [!UICONTROL Search] eller sidnumreringskontrollerna längst ned i listan för att hitta det önskade företaget. Du kan sortera varje kolumn i stigande eller fallande ordning genom att klicka på den önskade kolumnens rubrik.
 
-1. Klicka på **[!UICONTROL Containers]** fliken.
+1. Klicka på fliken **[!UICONTROL Containers]**.
 
    ![](assets/containers.png)
 
@@ -35,11 +35,11 @@ Visa eller redigera dataleverantörer för behållare.
 
    ![Stegresultat](assets/containers_edit.png)
 
-1. Flytta datakällor från **[!UICONTROL Available Data Sources]** och **[!UICONTROL Selected Data Sources for This Container]** listor genom att markera önskade datakällor och sedan klicka på höger- eller vänsterpilarna efter behov.
+1. Flytta datakällor från listorna **[!UICONTROL Available Data Sources]** och **[!UICONTROL Selected Data Sources for This Container]** genom att markera önskade datakällor och sedan klicka på höger- eller vänsterpilarna efter behov.
 
-   Du kan även utföra den här uppgiften från [tredjeparts](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)dataleverantörssida.
+   Du kan även utföra den här uppgiften från [sidan Data Providers](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)från tredje part.
 
-1. Klicka **[!UICONTROL Save]** om du har gjort ändringar.
+1. Klicka på **[!UICONTROL Save]** om du har gjort ändringar.
 
 >[!MORELIKETHIS]
 >
