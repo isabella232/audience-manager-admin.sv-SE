@@ -15,17 +15,17 @@ ht-degree: 10%
 
 # Ta bort en server {#delete-a-server}
 
-Använd [!UICONTROL Servers] sidan i administrationsverktyget för Audience Manager för att ta bort en befintlig server.
+Använd sidan [!UICONTROL Servers] i administrationsverktyget för Audience Manager för att ta bort en befintlig server.
 
 <!-- t_delete_server.xml -->
 
 >[!NOTE]
 >
->Du måste ha rollen för [!UICONTROL DEXADMIN] att kunna ta bort befintliga servrar.
+>Du måste ha rollen [!UICONTROL DEXADMIN] för att kunna ta bort befintliga servrar.
 
 1. Om du vill ta bort en befintlig server klickar du på **[!UICONTROL Servers]**.
 
    ![Stegresultat](assets/servers.png)
 
-1. Klicka ![](assets/icon_delete.png) i **[!UICONTROL Actions]** kolumnen på den önskade servern.
-1. Klicka **[!UICONTROL OK]** för att bekräfta borttagningen.
+1. Klicka på ![](assets/icon_delete.png) i kolumnen **[!UICONTROL Actions]** på den önskade servern.
+1. Klicka på **[!UICONTROL OK]** för att bekräfta borttagningen.
