@@ -19,7 +19,7 @@ Använd [!UICONTROL  Audit Logging] som första plats när du felsöker kundprob
 
 >[!NOTE]
 >
->Funktionen och dokumentationen [!UICONTROL Audit Logging] är under utveckling och kan komma att ändras. Logga eventuella problem du stöter på i [!DNL JIRA] ([!DNL UI] team).
+>Funktionen och dokumentationen för [!UICONTROL Audit Logging] är under utveckling och kan ändras. Logga eventuella problem som du stöter på i [!DNL JIRA] ([!DNL UI] team).
 
 ![Granskningsloggningsvy](assets/audit-logging-img.png)
 
