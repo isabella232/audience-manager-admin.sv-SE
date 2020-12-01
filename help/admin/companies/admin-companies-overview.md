@@ -15,10 +15,10 @@ ht-degree: 2%
 
 # Företag {#companies}
 
-Använd [!UICONTROL Companies] sidan för att visa en lista över företag i din Audience Manager-konfiguration. Du kan redigera eller ta bort befintliga företag eller skapa nya företag, förutsatt att du har tilldelats rätt användarroller.
+Använd sidan [!UICONTROL Companies] för att visa en lista över företag i din Audience Manager-konfiguration. Du kan redigera eller ta bort befintliga företag eller skapa nya företag, förutsatt att du har tilldelats rätt användarroller.
 
 ![](assets/companies.png)
 
 Du kan sortera varje kolumn i stigande eller fallande ordning genom att klicka på den önskade kolumnens rubrik.
 
-Använd [!UICONTROL Search] rutan eller sidnumreringskontrollerna längst ned i listan för att hitta önskat företag.
+Använd rutan [!UICONTROL Search] eller sidnumreringskontrollerna längst ned i listan för att hitta det önskade företaget.
