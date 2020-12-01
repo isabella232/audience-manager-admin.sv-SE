@@ -17,10 +17,10 @@ ht-degree: 5%
 
 Visa eller redigera behållare och mappningar för tredjeparts dataleverantörer. Du kan också aktivera delning med olika dataleverantörer.
 
-1. Klicka **[!UICONTROL Companies]** och sedan på önskat företag för att visa dess [!UICONTROL Profile] sida.
+1. Klicka på **[!UICONTROL Companies]**, leta upp och klicka sedan på önskat företag för att visa dess [!UICONTROL Profile]-sida.
 
-   Använd [!UICONTROL Search] rutan eller sidnumreringskontrollerna längst ned i listan för att hitta önskat företag. Du kan sortera varje kolumn i stigande eller fallande ordning genom att klicka på den önskade kolumnens rubrik.
-1. Klicka på **[!UICONTROL Third Party Data Providers]** fliken.
+   Använd rutan [!UICONTROL Search] eller sidnumreringskontrollerna längst ned i listan för att hitta det önskade företaget. Du kan sortera varje kolumn i stigande eller fallande ordning genom att klicka på den önskade kolumnens rubrik.
+1. Klicka på fliken **[!UICONTROL Third Party Data Providers]**.
 
    ![](assets/third_party_providers.png)
 
@@ -28,7 +28,7 @@ Visa eller redigera behållare och mappningar för tredjeparts dataleverantörer
 
    ![Stegresultat](assets/third_party_providers_edit.png)
 
-1. Markera **[!UICONTROL Enable Sharing]** om du vill aktivera följande alternativ:
+1. Välj **[!UICONTROL Enable Sharing]** om du vill aktivera följande alternativ:
 
    * **Överlappning på partnernivå:**
    * **Modellanvändning aktiverad:** Tillåter det här företaget att använda den här DataProvider när algoritmiska modeller skapas.
@@ -37,5 +37,5 @@ Visa eller redigera behållare och mappningar för tredjeparts dataleverantörer
 
 1. (Villkorligt) Om behållaren är aktiverad för den här providern kan du välja behållare för den här DataProvider genom att flytta de önskade behållarna från den tillgängliga listan till den valda listan.
 
-   Du kan även utföra den här uppgiften från sidan [Behållare](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) .
-1. Klicka **[!UICONTROL Save]** om du har gjort ändringar.
+   Du kan även utföra den här uppgiften från sidan [Behållare](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967).
+1. Klicka på **[!UICONTROL Save]** om du har gjort ändringar.
