@@ -15,9 +15,9 @@ ht-degree: 2%
 
 # HTTP-formatmakron {#http-format-macros}
 
-Visar makron som du kan använda för att skapa [!DNL HTTP] datafiler. [!DNL HTTP] skickar data i ett [!DNL JSON] format.
+Visar makron som du kan använda för att skapa [!DNL HTTP]-datafiler. [!DNL HTTP] skickar data i ett  [!DNL JSON] format.
 
-En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../formats/web-format-examples.md) för HTTP-format.
+Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för en lista och exempel på några vanliga makrokombinationer.
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -31,12 +31,12 @@ En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../f
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> -ID. </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> Audience Manager  </span> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Unikt användar-ID för datapartner. Detta makro returnerar det ID som du har tilldelat en användare om användarens ID redan har synkroniserats med ett <span class="keyword"> Audience Manager- </span> enhets-ID. </p> </td> 
+   <td colname="col3"> <p>Unikt användar-ID för datapartner. Detta makro returnerar det ID som du har tilldelat en användare om användarens ID redan har synkroniserats med ett <span class="keyword"> Audience Manager </span> enhets-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -51,7 +51,7 @@ En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../f
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix UTC-tidsstämpel. En intern tidsstämpel representerar den tid AAM underrättades om att publicera <span class="wintitle"> S2S- </span> destinationen till våra partners. </p> </td> 
+   <td colname="col3"> <p>Unix UTC-tidsstämpel. En intern tidsstämpel representerar den tid AAM meddelades om att publicera målet <span class="wintitle"> S2S </span> till våra partners. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -61,7 +61,7 @@ En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../f
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Experience Cloud ID. (MCID står för Marketing Cloud, som är det äldre namnet på Experience Cloud) </p> </td> 
+   <td colname="col3"> <p>Experience Cloud ID. (MCID står för Marketing Cloud, som är Experience Cloud) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -91,7 +91,7 @@ En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../f
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>DCS-regionen <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager </a> där aktiviteten kom.</p> </td> 
+   <td colname="col3"> <p>Det <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager DCS-område </a> där aktiviteten kom.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -160,7 +160,7 @@ En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../f
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>En lista över <span class="keyword"> Audience Manager </span> användar-ID:n. Du kan även returnera specifika fält som innehåller följande: </p> 
+   <td colname="col3"> <p>En lista med <span class="keyword"> Audience Manager </span> användar-ID:n. Du kan även returnera specifika fält som innehåller följande: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -174,8 +174,9 @@ En lista med exempel på vanliga makrokombinationer finns i [makroexemplen](../f
      <li><code>user.regionIds</code></li> 
     </ul> <p>Ange dessa fält så som visas i det här exemplet: </p> <p> 
      <codeblock>
-       "AAM_UUID": "&lt;user.aamUuid&gt;" "DataPartner_UUID": "&lt;user.dpUuid&gt;" 
-     </codeblock> </p> <p>Ett fullständigt exempel finns även <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> i Makroexempel för </a> HTTP-format. </p> </td> 
+       "AAM_UID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
+     </codeblock> </p> <p>Se även <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exempel på makron för HTTP-format </a> för ett fullständigt exempel. </p> </td> 
   </tr>
  </tbody>
 </table>
