@@ -19,5 +19,5 @@ Logga in på Adobe Audience Manager Admin med webbläsaren. Med Audience Manager
 
 <!-- t_login.xml -->
 
-1. Gå till verktyget Audience Manager [!DNL Admin] genom att bläddra till följande [!DNL URL]: [https://admin.demdex.com/](https://admin.demdex.com/).
+1. Gå till verktyget Audience Manager [!DNL Admin] genom att gå till följande [!DNL URL]: [https://admin.demdex.com/](https://admin.demdex.com/).
 1. Välj önskad verifieringsmetod i listrutan och klicka på **[!UICONTROL Verify]**.
