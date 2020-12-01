@@ -1,6 +1,6 @@
 ---
-description: Exempel på vanliga HTTP-makrokombinationer.
-seo-description: Exempel på vanliga HTTP-makrokombinationer.
+description: Exempel på några vanliga HTTP-makrokombinationer.
+seo-description: Exempel på några vanliga HTTP-makrokombinationer.
 seo-title: Exempel på HTTP-formatmakro
 title: Exempel på HTTP-formatmakro
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
@@ -15,9 +15,9 @@ ht-degree: 15%
 
 # Exempel på HTTP-formatmakro {#http-format-macro-examples}
 
-Exempel på vanliga [!DNL HTTP] makrokombinationer.
+Exempel på några vanliga [!DNL HTTP] makrokombinationer.
 
-En lista med makron och definitioner finns i [HTTP-formatmakron](../formats/web-formats.md) .
+I [HTTP-formatmakron](../formats/web-formats.md) finns en lista över makron och deras definitioner.
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -138,7 +138,7 @@ En lista med makron och definitioner finns i [HTTP-formatmakron](../formats/web-
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>Skriver ut ett kommatecken om fälten <code>segments</code> och <code>removedSegments</code> inte är tomma. Det här villkoret kan användas för POST-begäranden när listor för segment och borttagna segment sammanfogas. </p> </td> 
+   <td colname="col2"> <p>Skriver ut ett kommatecken om fälten <code>segments</code> och <code>removedSegments</code> inte är tomma. Det här villkorliga uttrycket kan användas för POST-förfrågningar när listor för segment och borttagna segment sammanfogas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
