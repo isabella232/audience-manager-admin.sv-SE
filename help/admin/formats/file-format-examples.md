@@ -15,15 +15,15 @@ ht-degree: 5%
 
 # Exempel på filformatsmakro {#file-format-macro-examples}
 
-Exempel på hur makron används för att skapa utgående [!DNL FTP] filmallar.
+Exempel på hur makron används för att skapa utgående, [!DNL FTP]-filmallar.
 
 >[!NOTE]
 >
->I tabellerna används **fet** stil för att identifiera varje makro med tillhörande utdata. För formatexemplen har symbolerna &lt; > lagts till för att hjälpa till att visuellt skilja ut varje makro.
+>I tabellerna identifierar typen **fet** varje makro med tillhörande utdata. För formatexemplen har symbolerna &lt; > lagts till för att hjälpa till att visuellt skilja ut varje makro.
 
 ## Vanliga makron {#common-macros}
 
-Dessa makron kan användas i alla formatfält. En fullständig lista med definitioner finns i [Filformatmakron](../formats/file-formats.md) .
+Dessa makron kan användas i alla formatfält. Se [Filformatmakron](../formats/file-formats.md) för en fullständig lista och definitioner.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -69,9 +69,9 @@ Dessa makron kan användas i alla formatfält. En fullständig lista med definit
  </tbody> 
 </table>
 
-## Makron för rubrikfält {#header-field-macros}
+## Huvudfältmakron {#header-field-macros}
 
-Makron används endast i rubrikfält. En fullständig lista med definitioner finns i [Filformatmakron](../formats/file-formats.md) .
+Makron används endast i rubrikfält. Se [Filformatmakron](../formats/file-formats.md) för en fullständig lista och definitioner.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -90,7 +90,7 @@ Makron används endast i rubrikfält. En fullständig lista med definitioner fin
 
 ## Dataradmakron {#data-row-macros}
 
-Makron används endast i rubrikfält. En fullständig lista med definitioner finns i [Filformatmakron](../formats/file-formats.md) .
+Makron används endast i rubrikfält. Se [Filformatmakron](../formats/file-formats.md) för en fullständig lista och definitioner.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
