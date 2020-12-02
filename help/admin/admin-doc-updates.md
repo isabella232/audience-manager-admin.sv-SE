@@ -5,10 +5,10 @@ seo-title: Dokumentationsuppdateringar
 title: Dokumentationsuppdateringar
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 translation-type: tm+mt
-source-git-commit: e60aa0ac341d74454bfe00a4f56add3a9f9e281b
+source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Alla uppdateringar (tillägg, borttagningar och korrigeringar) till Audience Manager Admin-handboken efter datum.
 
-Information om funktionsversioner, förbättringar och felkorrigeringar finns i [versionsinformationen för Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/). Se den [föregående versionsinformationen](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html) för äldre Experience Cloud-meddelanden. För [!DNL Audience Manager documentation changes, see] [dokumentationsuppdateringar ](https://docs.adobe.com/content/help/sv-SE/audience-manager/user-guide/documentation-updates/docs-2019.html).
+Information om funktionsversioner, förbättringar och felkorrigeringar finns i [versionsinformationen för Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/). Se den [föregående versionsinformationen](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html) för äldre Experience Cloud-meddelanden. Mer information om [!DNL Audience Manager] dokumentationsändringar finns i [Dokumentationsuppdateringar](https://docs.adobe.com/content/help/sv-SE/audience-manager/user-guide/documentation-updates/docs-2019.html).
 
 ## AAM 2019 – dokumentationsuppdateringar {#aam-2019-docs-updates}
 
