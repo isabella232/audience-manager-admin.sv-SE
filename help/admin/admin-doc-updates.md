@@ -4,14 +4,13 @@ seo-description: Alla uppdateringar (tillägg, borttagningar och korrigeringar) 
 seo-title: Dokumentationsuppdateringar
 title: Dokumentationsuppdateringar
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: tm+mt
-source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
+exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
+source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '632'
+ht-degree: 99%
 
 ---
-
 
 # Dokumentationsuppdateringar {#documentation-updates}
 
@@ -21,12 +20,10 @@ Information om funktionsversioner, förbättringar och felkorrigeringar finns i 
 
 ## AAM 2019 – dokumentationsuppdateringar {#aam-2019-docs-updates}
 
-
 | Hjälpavsnitt | Beskrivning |
----------|----------|
+|--- |--- |
 | HTTP-formatmakron | Vi har lagts till ett nytt makro, `REGION_ID_LIST`, och tre nya fält, `sda`, `sda` och `sda`, i `USER_LIST`-makrot. |
 | HTTP-formatmakron | Vi har lagt till två nya makron: `ECID` och `MCID`. |
-
 
 ## AAM 2018 – dokumentationsuppdateringar {#aam-2018-docs-updates}
 
