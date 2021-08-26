@@ -1,17 +1,16 @@
 ---
 description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny FTP-server eller för att redigera en befintlig server.
-seo-description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny FTP-server eller för att redigera en befintlig server.
-seo-title: Skapa eller redigera en FTP-server
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new FTP server or to edit an existing server.
+seo-title: Create or Edit an FTP Server
 title: Skapa eller redigera en FTP-server
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
-translation-type: tm+mt
-source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
+exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 4%
+source-wordcount: '393'
+ht-degree: 3%
 
 ---
-
 
 # Skapa eller redigera en FTP-server {#create-or-edit-an-ftp-server}
 
@@ -27,7 +26,7 @@ Använd sidan [!UICONTROL Servers] i verktyget Audience Manager Admin om du vill
 
    >[!NOTE]
    >
-   >Vi rekommenderar att du använder [!DNL Amazon S3] som metod för att hämta filer från och leverera filer till partners. [!DNL Amazon S3] har ett enkelt webbtjänstgränssnitt som kan användas för att lagra och hämta data när som helst, var som helst på webben. Mer information finns i [Om Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) i *användarhandboken för Audience Manager*.
+   >Vi rekommenderar att du använder [!DNL Amazon S3] som metod för att hämta filer från och leverera filer till partners. [!DNL Amazon S3] har ett enkelt webbtjänstgränssnitt som kan användas för att lagra och hämta data när som helst, var som helst på webben. Mer information finns i [Om Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) i *användarhandboken för Audience Manager*.
 
 1. Fyll i fälten:
 

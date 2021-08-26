@@ -1,17 +1,16 @@
 ---
 description: Skapa, redigera och ta bort mål för Audience Manager.
-seo-description: Skapa, redigera och ta bort mål för Audience Manager.
-seo-title: Hantera företagsdestinationer
+seo-description: Create, edit, and delete Audience Manager destinations.
+seo-title: Manage Company Destinations
 title: Hantera företagsdestinationer
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
-translation-type: tm+mt
-source-git-commit: f247457004a624297ddc8847dd256dbb7d8da418
+exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
-
 
 # Hantera företagsdestinationer {#manage-company-destinations}
 
@@ -19,9 +18,9 @@ Skapa, redigera och ta bort mål för Audience Manager.
 
 <!-- t_company_destinations.xml -->
 
-Mer information finns i [Destinationer](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html) i *användarhandboken för Audience Manager*.
+Mer information finns i [Destinationer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html) i *användarhandboken för Audience Manager*.
 
-## Skapa eller redigera företagsdestinationer {#create-edit-company-destinations}
+## Skapa eller redigera företagsdestinationer  {#create-edit-company-destinations}
 
 Bläddra igenom avsnitten för steg-för-steg-instruktioner om hur du skapar nya [!DNL Audience Manager]-mål eller redigerar befintliga mål.
 
@@ -59,7 +58,7 @@ Detta ID används som överordnad ID för datakälla. Detta avgör vilka använd
 >
 >För måltypen [!UICONTROL Bulk ID] kan du inte använda ID:t [!DNL Audience Manager] [!UICONTROL User ID] eller [!DNL Adobe Experience Cloud].
 
-Om datakällans ID ( [!UICONTROL DPID]) inte visas i listrutan måste du markera kryssrutan **[!UICONTROL Outbound]** på datakällnivå på [sidan Inställningar för datakälla](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html).
+Om datakällans ID ( [!UICONTROL DPID]) inte visas i listrutan måste du markera kryssrutan **[!UICONTROL Outbound]** på datakällnivå på [sidan Inställningar för datakälla](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
 
 * **[!UICONTROL Target Data Source]:** (Obligatoriskt) Välj önskad datakälla för det här målet i listrutan. Den här inställningen aktiverar märkning av utgående data, vilket gör det möjligt att mata in i separata system på klientsidan.
 * **[!UICONTROL Foreign Account ID]:** Ange ID för det främmande kontot för det här målet. Detta är ID-värdet i mottagarens system för dessa utgående data.
@@ -76,7 +75,7 @@ Om du skapar ett [!UICONTROL S2S]-mål fyller du i fälten nedan:
 >
 >Endast för [!DNL S2S] kan du aktivera eller inaktivera antingen [!UICONTROL Realtime] eller [!UICONTROL Batch] mål med skjutreglagen Av/På på skärmen. Du kan inte inaktivera båda alternativen.
 
-## Gruppdata {#batch-data}
+## Batchdata {#batch-data}
 
 För [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] eller [!UICONTROL Bulk Segment]-mål fyller du i fälten nedan:
 
@@ -92,7 +91,7 @@ För [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] eller [!UICONTROL Bulk Segmen
 * **[!UICONTROL Lifetime]**: Filen innehåller aktiva användare som har setts över alla  [!DNL Audience Manager] klienters egenskaper sedan målet skapades.
 * **[!UICONTROL Sync Type Lookback Period]**: Om du väljer  [!UICONTROL Customer] eller  [!UICONTROL Platform]väljer en tidsperiod. Filerna innehåller aktiva användare för den valda tidsperioden.
 Välj sedan ordertyp. Detta anger frekvens och omfattning för varje utgående integrering med partners. Välj mellan stegvis och fullständig beställning.
-* **[!UICONTROL Incremental Scheduled Run]**: För varje körning  [!DNL Audience Manager] kommer endast de nya nettoanvändare som är kvalificerade sedan föregående utgående order att skickas ut. Välj den tidsperiod som du vill att [!DNL Audience Manager] ska utföra inkrementella synkroniseringsprocesser. Du kan till exempel välja var 24:e timme, var 7:e dag, var 30:e dag eller aldrig.
+* **[!UICONTROL Incremental Scheduled Run]**: För varje körning  [!DNL Audience Manager] kommer endast de nya nettoanvändare som är kvalificerade sedan föregående utgående order att skickas ut. Välj den önskade tidsperiod som du vill att [!DNL Audience Manager] ska utföra inkrementella synkroniseringsprocesser. Du kan till exempel välja var 24:e timme, var 7:e dag, var 30:e dag eller aldrig.
 
 <!--
 I removed {importance="high"} from note for Exp League rendering. -Bob
@@ -123,7 +122,7 @@ För [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] eller [!UICONTROL Bulk Segmen
 
 Knappen **[!UICONTROL Save]** aktiveras när alla obligatoriska fält har fyllts i. Klicka på **[!UICONTROL Save]** för att slutföra målprocessen.
 
-## Ta bort företagsmål {#delete-company-destinations}
+## Ta bort företagsdestinationer {#delete-company-destinations}
 
 <!-- delete-company-destinations.xml -->
 

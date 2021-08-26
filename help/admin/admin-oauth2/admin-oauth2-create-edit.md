@@ -1,17 +1,16 @@
 ---
 description: Använd sidan för OAuth2-klienter för att visa en lista över OAuth2-klienter i din Audience Manager-konfiguration. Du kan redigera eller ta bort befintliga klienter eller skapa nya klienter, förutsatt att du har tilldelats rätt användarroller.
-seo-description: Använd sidan för OAuth2-klienter för att visa en lista över OAuth2-klienter i din Audience Manager-konfiguration. Du kan redigera eller ta bort befintliga klienter eller skapa nya klienter, förutsatt att du har tilldelats rätt användarroller.
-seo-title: OAuth2-klienter
+seo-description: Use the OAuth2 Clients page to view a list of OAuth2 clients in your Audience Manager configuration. You can edit or delete existing clients or create new clients, providing that you have the appropriate user roles assigned.
+seo-title: OAuth2 Clients
 title: OAuth2-klienter
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
-translation-type: tm+mt
-source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
+exl-id: 993eae04-02e8-4554-a6fe-cf599053bfc9
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 2%
+source-wordcount: '555'
+ht-degree: 1%
 
 ---
-
 
 # OAuth2-klienter {#oauth-clients}
 
@@ -23,7 +22,7 @@ Använd sidan [!UICONTROL OAuth2 Clients] för att visa en lista över [!UICONTR
 
 >[!NOTE]
 >
->Se till att kunden läser [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth)-dokumentationen i användarhandboken för Audience Manager.
+>Se till att kunden läser [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth)-dokumentationen i användarhandboken för Audience Manager.
 
 [!DNL OAuth2] är en öppen standard för auktorisering som ger skyddad delegerad åtkomst till  [!DNL Audience Manager] resurser åt en resursägare.
 

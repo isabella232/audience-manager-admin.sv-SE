@@ -1,18 +1,17 @@
 ---
 description: Betamiljön används för att testa implementeringar av Audience Manager. Ändringar som görs i betaversionen påverkar inte produktionsdata. Audience Manager betamiljön är en mindre, fristående version av produktionsmiljön. Alla data som du vill testa måste anges och samlas in i den här miljön.
-seo-description: Betamiljön används för att testa implementeringar av Audience Manager. Ändringar som görs i betaversionen påverkar inte produktionsdata. Audience Manager betamiljön är en mindre, fristående version av produktionsmiljön. Alla data som du vill testa måste anges och samlas in i den här miljön.
-seo-title: Beta-miljö
+seo-description: The beta environment is for testing Audience Manager implementations. Changes made in beta do not affect production data. The Audience Manager beta environment is a smaller-scale, standalone version of the production environment. All the data that you want to test must be entered and collected in this environment.
+seo-title: Beta Environment
 solution: Audience Manager
 title: Beta-miljö
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
-translation-type: tm+mt
-source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
+exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '362'
 ht-degree: 2%
 
 ---
-
 
 # Beta-miljö {#beta-environment}
 
@@ -29,7 +28,7 @@ Betamiljön används för att testa implementeringar av Audience Manager. Ändri
 | UI | /bank-beta.demdex.com | Data kopieras månadsvis från produktionen till betamiljön. Produktionsautentiseringsuppgifterna är giltiga för betaversion. |
 | API | https&amp;kolon;//api-beta.demdex.com/.. | Data kopieras månadsvis från produktionen till betamiljön. Produktionsautentiseringsuppgifterna är giltiga för betaversion. |
 
-## Tillhandahåller Amazon S3-buffertar {#provision-s3-buckets}
+## Tillhandahåll Amazon S3-buffertar {#provision-s3-buckets}
 
 >[!NOTE]
 >
@@ -45,9 +44,9 @@ Så här etablerar du [!DNL S3]-grupper för inkommande data:
 
 >[!NOTE]
 >
->Vi uppmuntrar inte till användning av [!DNL FTP/SFTP] och uppmuntrar till användning av [!UICONTROL Amazon S3]. Orsakerna till varför vi rekommenderar att du använder [!UICONTROL Amazon S3] finns i [Amazon S3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html).
+>Vi uppmuntrar inte till användning av [!DNL FTP/SFTP] och uppmuntrar till användning av [!UICONTROL Amazon S3]. Orsakerna till varför vi rekommenderar att du använder [!UICONTROL Amazon S3] finns i [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
 
-## Få åtkomst till DCS i betamiljön {#access-dcs-beta-environment}
+## Åtkomst till DCS i betamiljön {#access-dcs-beta-environment}
 
 Så här kommer du åt [!UICONTROL DCS] i betamiljön:
 
