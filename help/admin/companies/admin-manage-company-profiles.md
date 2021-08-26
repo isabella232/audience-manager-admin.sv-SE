@@ -1,17 +1,16 @@
 ---
 description: Använd företagssidan i verktyget Audience Manager Admin för att skapa ett nytt företag.
-seo-description: Använd företagssidan i verktyget Audience Manager Admin för att skapa ett nytt företag.
-seo-title: Skapa en företagsprofil
+seo-description: Use the Companies page in the Audience Manager Admin tool to create a new company.
+seo-title: Create a Company Profile
 title: Skapa en företagsprofil
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
-translation-type: tm+mt
-source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
+exl-id: 80bb8a89-0207-4645-ac42-e73cd10561de
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
-
 
 # Skapa en företagsprofil {#create-a-company-profile}
 
@@ -43,12 +42,12 @@ Använd sidan [!UICONTROL Companies] i administrationsverktyget för Audience Ma
       * **[!UICONTROL Full AAM]**: Ange att företaget ska ha ett fullständigt Adobe Audience Manager-konto och att användarna ska ha inloggningsåtkomst.
       * **[!UICONTROL MMP]**: Ange att företaget har aktiverats för att använda  [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP])-funktionerna. Med [!UICONTROL MMP] kan målgrupper delas över hela Experience Cloud med hjälp av en [!UICONTROL Experience Cloud ID] ([!DNL MCID]) som tilldelas alla besökare och sedan används av Audience Manager. Om du väljer den här kontotypen markeras även [!UICONTROL Experience Cloud ID Service] automatiskt.
 
-         Mer information finns i [Publikationstjänster - Överordnad marknadsföringsprofil](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+         Mer information finns i [Experience Cloud Publiker](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
    * **[!UICONTROL Data Source]**: Ange att företaget är en tredjeparts dataleverantör inom Audience Manager.
    * **[!UICONTROL Targeting Partner]**: Ange att företaget fungerar som en målinriktningsplattform för Audience Manager-kunder.
    * **[!UICONTROL Visitor ID Service]**: Ange att företaget har aktiverats för att använda  [!UICONTROL Experience Cloud Visitor ID Service].
 
-      [!UICONTROL Experience Cloud Visitor ID Service] tillhandahåller ett universellt besökar-ID för olika Experience Cloud-lösningar. Mer information finns i [användarhandboken för Experience Cloud Visitor ID-tjänsten](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html).
+      [!UICONTROL Experience Cloud Visitor ID Service] tillhandahåller ett universellt besökar-ID för olika Experience Cloud-lösningar. Mer information finns i [användarhandboken för Experience Cloud Visitor ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
 
    * **[!UICONTROL Agency]**: Ange att företaget ska ha ett  [!UICONTROL Agency] konto.
 
@@ -91,12 +90,12 @@ Redigera ett företags profil, inklusive namn, beskrivning, underdomän, livscyk
       * **[!UICONTROL MMP]**: Ange att företaget har aktiverats för att använda funktionerna för den Överordnad marknadsföringsprofilen ([!UICONTROL MMP]).
 
          Om du väljer den här kontotypen markeras även **[!UICONTROL Visitor ID Service]** automatiskt.
-Mer information finns i [Publikationstjänster - Överordnad marknadsföringsprofil](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+Mer information finns i [Experience Cloud Publiker](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
    * **[!UICONTROL Data Source]**: Ange att företaget är en tredjeparts dataleverantör inom Audience Manager.
    * **[!UICONTROL Targeting Partner]**: Ange att företaget fungerar som en målinriktningsplattform för Audience Manager-kunder.
    * **[!UICONTROL Visitor ID Service]**: Ange att företaget har aktiverats för att använda tjänsten Experience Cloud Visitor ID.
 
-      Experience Cloud Visitor ID-tjänsten tillhandahåller ett universellt besökar-ID för olika Experience Cloud-lösningar. Mer information finns i [användarhandboken för Experience Cloud Visitor ID-tjänsten](https://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_service.html).
+      Experience Cloud Visitor ID-tjänsten tillhandahåller ett universellt besökar-ID för olika Experience Cloud-lösningar. Mer information finns i [användarhandboken för tjänsten Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
 
    * **[!UICONTROL Agency]**: Ange att företaget ska ha ett byråns konto.
    * **[!UICONTROL Features]**: Välj önskade alternativ:

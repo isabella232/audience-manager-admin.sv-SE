@@ -1,23 +1,20 @@
 ---
-description: Du kan aktivera binära utgående batchöverföringar av Hadoop Sequence Files (SEQ) för Audience Manager-kunder.
-seo-description: Du kan aktivera binära utgående batchöverföringar av Hadoop Sequence Files (SEQ) för Audience Manager-kunder.
-seo-title: Aktivera Hadoop-sekvens för utgående filöverföringar
+description: Du kan aktivera utgående batchöverföringar för binära sekvensfiler (SEQ) för Audience Manager-Hadoop.
+seo-description: You can enable binary Hadoop Sequence Files (SEQ) outbound batch transfers for Audience Manager customers.
+seo-title: Enable Hadoop Sequence File Transfers for Outbound
 title: Aktivera Hadoop-sekvens för utgående filöverföringar
 uuid: 301985b1-5ff6-4112-a353-2e5a97e7eec0
-translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+exl-id: 45a72422-9e72-46f9-835e-ed0dd88152d2
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 18%
+source-wordcount: '91'
+ht-degree: 15%
 
 ---
-
 
 # Aktivera Hadoop-sekvens för utgående filöverföringar {#enable-hadoop-sequence-file-transfers-for-outbound}
 
 Du kan aktivera binära [!DNL Hadoop Sequence Files] ([!DNL SEQ]) utgående batchöverföringar för Audience Manager-kunder.
-
-<!-- REMOVED FROM PUBLIC DOCS: The advantages of using [!DNL Hadoop SEQ] files are listed in the [public documentation](https://marketing.adobe.com/resources/help/en_US/aam/outbound-seq-files.html). -->
 
 Så här aktiverar du [!DNL SEQ] utgående filöverföringar:
 
@@ -25,4 +22,4 @@ Så här aktiverar du [!DNL SEQ] utgående filöverföringar:
 1. Bläddra nedåt till **[!UICONTROL Batch Data]** i gränssnittet **[!UICONTROL Edit Destinations]**.
 1. Välj protokoll: **[!UICONTROL FTP]** eller **[!UICONTROL S3]**.
 1. Välj format: **[!UICONTROL AAM-Outbound-SEQ (415)]**.
-1. Bekräfta genom att klicka på **[!UICONTROL Save]** längst ned på sidan. Kunden kan nu skicka Hadoop Sequence-filer till målet.
+1. Bekräfta genom att klicka på **[!UICONTROL Save]** längst ned på sidan. Kunden kan nu skicka sekvensfiler för Hadoopet till målet.

@@ -1,17 +1,16 @@
 ---
 description: Använd formatsidan i administrationsverktyget för Audience Manager för att skapa ett nytt format eller för att redigera ett befintligt format.
-seo-description: Använd formatsidan i administrationsverktyget för Audience Manager för att skapa ett nytt format eller för att redigera ett befintligt format.
-seo-title: Skapa eller redigera ett format
+seo-description: Use the Formats page in the Audience Manager Admin tool to create a new format or to edit an existing format.
+seo-title: Create or Edit a Format
 title: Skapa eller redigera ett format
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
-translation-type: tm+mt
-source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+exl-id: 3c97d1e9-8093-4181-a1fd-fb1816cdaa3d
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 3%
+source-wordcount: '420'
+ht-degree: 2%
 
 ---
-
 
 # Skapa eller redigera ett format {#create-or-edit-a-format}
 
@@ -44,7 +43,7 @@ Använd sidan [!UICONTROL Formats] i administrationsverktyget för Audience Mana
    * **[!UICONTROL Data Row]:** Ange texten som ska visas i varje avgränsad rad i filen.
    * **[!UICONTROL Maximum File Size (In MB)]:** Ange den maximala filstorleken för dataöverföringsfiler. Komprimerade filer måste vara mindre än 100 MB. Det finns ingen gräns för okomprimerad filstorlek.
    * **[!UICONTROL Compression]:** Välj önskad komprimeringstyp: gz eller zip för datafilerna. För leverans till [!UICONTROL AWS S3] måste du använda .gz eller okomprimerade filer.
-   * **[!UICONTROL .info Receipt]:** Anger att en fil för överföringskontroll ([!DNL .info]) genereras. Filen [!DNL .info] innehåller metadatainformation om filöverföringar så att partners kan verifiera att filöverföringar som hanteras i Audience Manager är korrekta. Mer information finns i [Överföringskontrollfiler för loggfilsöverföringar](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html).
+   * **[!UICONTROL .info Receipt]:** Anger att en fil för överföringskontroll ([!DNL .info]) genereras. Filen [!DNL .info] innehåller metadatainformation om filöverföringar så att partners kan verifiera att filöverföringar som hanteras i Audience Manager är korrekta. Mer information finns i [Överföringskontrollfiler för loggfilsöverföringar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en).
    * **[!UICONTROL MD5 Checksum Receipt]:** Anger att ett  [!DNL MD5] checksummekvitto genereras. Kvittot för kontrollsumman [!DNL MD5] så att partners kan verifiera att Audience Manager har hanterat den fullständiga överföringen korrekt.
 
 1. (Villkorligt) Om du väljer **[!UICONTROL HTTP]** fyller du i fälten:

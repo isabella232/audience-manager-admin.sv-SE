@@ -1,19 +1,18 @@
 ---
 description: Information som hjälper dig att skapa destinationer i Audience Manager och undvika vanliga problem.
-seo-description: Information som hjälper dig att skapa destinationer i Audience Manager och undvika vanliga problem.
-seo-title: Felsökning av destinationsinställningar
+seo-description: Information to help you set up destinations in Audience Manager and avoid common problems.
+seo-title: Destination Setup Troubleshooting
 title: Felsökning av destinationsinställningar
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
-translation-type: tm+mt
-source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
+exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1316'
 ht-degree: 2%
 
 ---
 
-
-# Felsökning av destinationsinställningar{#destination-setup-troubleshooting}
+# Felsökning av destinationsinställningar {#destination-setup-troubleshooting}
 
 Information som hjälper dig att skapa destinationer i Audience Manager och undvika vanliga problem.
 
@@ -75,7 +74,7 @@ Den utomordentliga processen körs två gånger dagligen och flera processer (ö
 
 ### För stora fildelningsstorlekar
 
-När du exporterar filer till mål kan du dela upp större utgående filer i filsegment. Kontrollera att de enskilda filsegmenten inte överstiger 10 GB. Se även [Namn på utgående datafil: Syntax och exempel](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
+När du exporterar filer till mål kan du dela upp större utgående filer i filsegment. Kontrollera att de enskilda filsegmenten inte överstiger 10 GB. Se även [Namn på utgående datafil: Syntax och exempel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Så här konfigurerar du destinationer för att exportera Experience Cloud-ID, kund-ID eller Audience Manager-ID i utgående datafiler {#set-up-destinations-export}
@@ -90,7 +89,7 @@ Destinationer gör att våra kunder kan aktivera sina data i valfritt antal digi
 >
 >Mer information om hur du skapar mål i Admin-gränssnittet finns i artikeln [Skapa eller redigera företagsmål](companies/admin-manage-company-destinations.md#create-edit-company-destinations).
 
-Dina kunder vill exportera olika ID-typer beroende på destination. I konfigurationsdiagrammet nedan visas de alternativ du bör välja för att exportera profilinformation som är relaterad till olika ID-typer. Vi rekommenderar att du även refererar till [index för ID:n i Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html). Det finns tre viktiga inställningar att tänka på: [!UICONTROL User ID Key], [!UICONTROL Data Source Type] och [!UICONTROL Format]. Vi detaljerar alla nedan.
+Dina kunder vill exportera olika ID-typer beroende på destination. I konfigurationsdiagrammet nedan visas de alternativ du bör välja för att exportera profilinformation som är relaterad till olika ID-typer. Vi rekommenderar att du även refererar till [index för ID:n i Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en). Det finns tre viktiga inställningar att tänka på: [!UICONTROL User ID Key], [!UICONTROL Data Source Type] och [!UICONTROL Format]. Vi detaljerar alla nedan.
 
 * [!UICONTROL User ID Key]. Gå till **[!UICONTROL Companies]** i [!UICONTROL Admin UI]. Sök efter kundens företag och klicka på det. Leta efter fliken **[!UICONTROL Destinations]** och tryck på **[!UICONTROL Add Destination]**. Välj [!UICONTROL User ID Key] i **[!UICONTROL Add Destination]**-arbetsflödet. [!UICONTROL User ID Key] filtrerar inkommande ID:n från måldatakällan och tillåter bara att ID:n skickas.
 
