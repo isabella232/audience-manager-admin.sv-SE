@@ -1,17 +1,16 @@
 ---
 description: Visar makron som du kan använda för att skapa HTTP-datafiler. HTTP skickar data i JSON-format.
-seo-description: Visar makron som du kan använda för att skapa HTTP-datafiler. HTTP skickar data i JSON-format.
-seo-title: HTTP-formatmakron
+seo-description: Lists the macros you can use to create HTTP data files. HTTP sends data in a JSON format.
+seo-title: HTTP Format Macros
 title: HTTP-formatmakron
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
-translation-type: tm+mt
-source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
+exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
+source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 2%
+source-wordcount: '389'
+ht-degree: 1%
 
 ---
-
 
 # HTTP-formatmakron {#http-format-macros}
 
@@ -91,7 +90,7 @@ Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Det <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager DCS-område </a> där aktiviteten kom.</p> </td> 
+   <td colname="col3"> <p>Det <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Audience Manager DCS-område </a> där aktiviteten kom.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
