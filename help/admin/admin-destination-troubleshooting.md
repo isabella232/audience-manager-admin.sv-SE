@@ -5,7 +5,7 @@ seo-title: Destination Setup Troubleshooting
 title: Felsökning av destinationsinställningar
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 2%
@@ -74,7 +74,7 @@ Den utomordentliga processen körs två gånger dagligen och flera processer (ö
 
 ### För stora fildelningsstorlekar
 
-När du exporterar filer till mål kan du dela upp större utgående filer i filsegment. Kontrollera att de enskilda filsegmenten inte överstiger 10 GB. Se även [Namn på utgående datafil: Syntax och exempel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
+När du exporterar filer till mål kan du dela upp större utgående filer i filsegment. Kontrollera att de enskilda filsegmenten inte överstiger 10 GB. Se även [Namn på utgående datafil: Syntax och exempel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Så här konfigurerar du destinationer för att exportera Experience Cloud-ID, kund-ID eller Audience Manager-ID i utgående datafiler {#set-up-destinations-export}

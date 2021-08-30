@@ -5,9 +5,9 @@ seo-title: API Requirements and Recommendations
 title: Krav och rekommendationer för API
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -36,4 +36,4 @@ Vi rekommenderar att du skapar ett separat, tekniskt användarkonto för att arb
 * Identifiera vilken tjänst som anropar [!DNL API] (t.ex. samtal från en klientapp som använder våra [!DNL API]s eller från att göra satsändringar).
 * Ge oavbruten åtkomst till [!DNL API]s. Ett konto som är knutet till en viss anställd kan tas bort när de lämnar företaget. Detta förhindrar dina kunder från att arbeta med den tillgängliga [!DNL API]-koden. Ett generiskt konto som inte är kopplat till en viss medarbetare hjälper till att undvika det här problemet.
 
-Ett exempel eller ett användningsexempel för den här typen av konto är att vi vill att kunderna ska ändra många segment samtidigt med [grupphanteringsverktygen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html). För att göra detta behöver de [!DNL API] åtkomst. I stället för att lägga till behörigheter till en viss användare skapar du ett icke-specifikt [!DNL API]-användarkonto som har rätt autentiseringsuppgifter, nyckel och hemlighet för att göra [!DNL API]-anrop. Detta är också användbart om klientens program utvecklar egna program som använder [!DNL Audience Manager] [!DNL API]s.
+Ett exempel eller ett användningsexempel för den här typen av konto är att vi vill att kunderna ska ändra många segment samtidigt med [grupphanteringsverktygen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). För att göra detta behöver de [!DNL API] åtkomst. I stället för att lägga till behörigheter till en viss användare skapar du ett icke-specifikt [!DNL API]-användarkonto som har rätt autentiseringsuppgifter, nyckel och hemlighet för att göra [!DNL API]-anrop. Detta är också användbart om klientens program utvecklar egna program som använder [!DNL Audience Manager] [!DNL API]s.

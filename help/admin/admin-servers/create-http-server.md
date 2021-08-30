@@ -1,17 +1,16 @@
 ---
 description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny HTTP-server eller för att redigera en befintlig server.
-seo-description: Använd serversidan i administrationsverktyget för Audience Manager för att skapa en ny HTTP-server eller för att redigera en befintlig server.
-seo-title: Skapa eller redigera en HTTP-server
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new HTTP server or to edit an existing server.
+seo-title: Create or Edit an HTTP Server
 title: Skapa eller redigera en HTTP-server
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
-translation-type: tm+mt
-source-git-commit: d518ba4011f203a7d450ce76d8c1924f7d73a815
+exl-id: 8b3dfb1e-2dee-4a05-835e-3c32643336bc
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 5%
+source-wordcount: '302'
+ht-degree: 3%
 
 ---
-
 
 # Skapa eller redigera en HTTP-server {#create-or-edit-an-http-server}
 
@@ -51,7 +50,7 @@ Använd sidan [!UICONTROL Servers] i administrationsverktyget för Audience Mana
 
    >[!NOTE]
    >
-   >Om du vill aktivera [OAuth 2.0-autentisering för dataöverföringar i realtid](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html) för en partner fyller du i fälten som i tabellen nedan. Fälten i *kursiv* måste fyllas i exakt som i tabellen.
+   >Om du vill aktivera [OAuth 2.0-autentisering för dataöverföringar i realtid](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) för en partner fyller du i fälten som i tabellen nedan. Fälten i *kursiv* måste fyllas i exakt som i tabellen.
 
    | Namn | Värde |
    |---|---|
