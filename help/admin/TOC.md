@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Handbok för Audience Manager Admin
 breadcrumb-title: Administratörshandbok
 user-guide-description: Med Audience Manager Admin-verktyget kan du lägga till och konfigurera företag, servrar, rapporter, format och användare. Du kan också visa och redigera din personliga profil.
-source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
+source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 98%
+source-wordcount: '187'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 98%
    + [Hantera företagsgränser](companies/admin-company-limits.md)
    + [Hantera företagsanvändare](companies/admin-manage-company-users.md)
    + [Filtrera utgående data endast efter aktiva användare](companies/outbound-active-user-filter.md)
+   + [Hantera introduktionsåtkomst för data från andra part](companies/admin-manage-onboarding-access.md)
 + Servrar {#servers}
    + [Översikt över servrar](admin-servers/admin-servers.md)
    + [Skapa eller redigera en FTP-server](admin-servers/create-ftp-server.md)
