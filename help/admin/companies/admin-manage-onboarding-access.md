@@ -1,14 +1,20 @@
 ---
 description: För att förhindra att oavsiktliga filer och data introduceras i måldatakällor som ägs av andra partner eller kunder har Audience Manager lagt till ett mappningskrav mellan partner-ID (PID) och de datakällor som ägs av andra partner.
 title: Hantera introduktionsåtkomst för data från andra part
-source-git-commit: 6c88979f876909bc32b5238605cb4a352e327a00
+exl-id: 03bec978-dd31-41cc-a3aa-d67fbb98963c
+source-git-commit: cc04863272005964cfbf1bb2319cc0dd86863680
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
 # Hantera startåtkomst för data från andra leverantörer {#manage-onboarding-access-for-second-party-data}
+
+>[!IMPORTANT]
+>
+> Målgruppen för den här sidan är anställda i Adobe. Om du är en Audience Manager-kund och begär en mappning av en datakälla från en annan leverantör enligt beskrivningen på den här sidan kontaktar du kundtjänst eller den tekniska kontohanteraren.
+> Observera att det inte krävs någon mappning för befintliga datautdelningsrelationer. Mappningen behövs inte heller när du registrerar data i måldatakällor som tillhör ditt PID.
 
 För att förhindra att oavsiktliga filer och data introduceras i måldatakällor som ägs av andra partner har Audience Manager lagt till ett mappningskrav mellan partner-ID (PID) och de datakällor (DPID) som ägs av andra partner. Läs mer om PID och DPID i [index för Audience Manager-ID:n](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html).
 
