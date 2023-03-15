@@ -2,12 +2,12 @@
 product: audience manager
 audience: admin
 user-guide-title: Handbok för Audience Manager Admin
-breadcrumb-title: Administratörshandbok
+breadcrumb-title: Användarhandbok om Admin
 user-guide-description: Med Audience Manager Admin-verktyget kan du lägga till och konfigurera företag, servrar, rapporter, format och användare. Du kan också visa och redigera din personliga profil.
 source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
