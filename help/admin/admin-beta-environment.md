@@ -23,38 +23,38 @@ Betamiljön används för att testa implementeringar av Audience Manager. Ändri
 
 | Tjänst | URL/värdnamn | Steg för etablering |
 |--- |--- |--- |
-| S3 |  | Se [Tillhandahålla Amazon S3-buffertar](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | /dcs-beta.demdex.net/.. | Inga extra steg behövs från vår sida. Se [Gå till DCS i Beta-miljön](admin-beta-environment.md#access-dcs-beta-environment). |
+| S3 |  | Se [Tillhandahåll Amazon S3-buffertar](admin-beta-environment.md#provision-s3-buckets). |
+| DCS | /dcs-beta.demdex.net/.. | Inga extra steg behövs från vår sida. Se [Åtkomst till DCS i betamiljön](admin-beta-environment.md#access-dcs-beta-environment). |
 | UI | /bank-beta.demdex.com | Data kopieras månadsvis från produktionen till betamiljön. Produktionsautentiseringsuppgifterna är giltiga för betaversion. |
-| API | https&amp;kolon;//api-beta.demdex.com/.. | Data kopieras månadsvis från produktionen till betamiljön. Produktionsautentiseringsuppgifterna är giltiga för betaversion. |
+| API | /api-beta.demdex.com/.. | Data kopieras månadsvis från produktionen till betamiljön. Produktionsautentiseringsuppgifterna är giltiga för betaversion. |
 
 ## Tillhandahåll Amazon S3-buffertar {#provision-s3-buckets}
 
 >[!NOTE]
 >
->Vi går bort från att använda [!DNL FTP/SFTP]. Observera också att utgående dataöverföringar inte fungerar för betamiljön.
+>Vi går från att använda [!DNL FTP/SFTP]. Observera också att utgående dataöverföringar inte fungerar för betamiljön.
 
-Så här etablerar du [!DNL S3]-grupper för inkommande data:
+Tillhandahållande [!DNL S3] för inkommande data:
 
-1. Använd funktionen [**SKMS Request TechOps Help**](https://skms.adobe.com/).
-1. Gå till **[!UICONTROL Request TechOps Help]** i den vänstra navigeringslisten.
+1. Använd [**SKMS Begär hjälp för TechOps**](https://skms.adobe.com/) -funktion.
+1. Gå till **[!UICONTROL Request TechOps Help]** till vänster i navigeringsfältet.
 1. I **[!UICONTROL Request Search]** skriver du Audience Manager i sökfältet.
 1. Bläddra nedåt i sökresultaten och klicka på **Audience Manager - S3 inkommande/utgående kontoetablering**.
-1. Fyll i fälten i etableringsfönstret och ange **sandlådemiljö** i fältet **[!UICONTROL Environment]**.
+1. Fyll i fälten i provisioneringsfönstret och ange **Sandlådemiljö** i **[!UICONTROL Environment]** fält.
 
 >[!NOTE]
 >
->Vi uppmuntrar inte till användning av [!DNL FTP/SFTP] och uppmuntrar till användning av [!UICONTROL Amazon S3]. Orsakerna till varför vi rekommenderar att du använder [!UICONTROL Amazon S3] finns i [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
+>Vi uppmuntrar inte till användning av [!DNL FTP/SFTP] och uppmuntra användningen av [!UICONTROL Amazon S3]. Skälen till att vi uppmuntrar användningen av [!UICONTROL Amazon S3] anges i [Amazon CS3:om](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
 
 ## Åtkomst till DCS i betamiljön {#access-dcs-beta-environment}
 
-Så här kommer du åt [!UICONTROL DCS] i betamiljön:
+Så här öppnar du [!UICONTROL DCS] i betamiljön:
 
-1. Gör ett [!UICONTROL DCS]-anrop med kommandot [!DNL curl] [](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] är ett verktyg som du kan använda för att överföra data från eller till en server med hjälp av ett av många protokoll som stöds.
+1. Gör en [!UICONTROL DCS] anrop, med [!DNL curl] [kommando](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] är ett verktyg som du kan använda för att överföra data från eller till en server med hjälp av ett av många protokoll som stöds.
 
    Exempel: `curl -v https://dcs-beta.demdex.net/event`
 
-1. Kontrollera att din begäran har hanterats av betaversionen [!UICONTROL DCS] genom att söka efter [!DNL sandbox] i [!UICONTROL DCS]-svarshuvudet.
+1. Verifiera att din begäran har hanterats av betaversionen [!UICONTROL DCS] efter &quot;[!DNL sandbox]&quot; i [!UICONTROL DCS] svarshuvud.
 
    Exempel:
 

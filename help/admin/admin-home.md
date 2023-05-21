@@ -42,7 +42,7 @@ Med Audience Manager Admin-verktyget kan du lägga till och konfigurera företag
      <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Adobes Social community</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Adobe-utbildningar och självstudiekurser</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
-     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/support/experience-cloud.html" format="https" scope="external"> Produktdokumentation – startsida</a> </li> 
+     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/se/support/experience-cloud.html" format="https" scope="external"> Produktdokumentation – startsida</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

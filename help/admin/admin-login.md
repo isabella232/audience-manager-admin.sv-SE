@@ -7,8 +7,8 @@ uuid: 9ba84a90-e596-4aca-9bf7-f7dcf5c1cca5
 exl-id: cd70bc34-7bd3-4e7e-a2c0-af29608e2438
 source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 43%
 
 ---
 

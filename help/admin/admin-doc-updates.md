@@ -16,7 +16,7 @@ ht-degree: 94%
 
 Alla uppdateringar (tillägg, borttagningar och korrigeringar) till Audience Manager Admin-handboken efter datum.
 
-Information om funktionsversioner, förbättringar och felkorrigeringar finns i [versionsinformationen för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Mer information om [!DNL Audience Manager] dokumentationsändringar finns i [Dokumentationsuppdateringar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
+Information om funktionsversioner, förbättringar och felkorrigeringar finns i [versionsinformationen för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). För [!DNL Audience Manager] dokumentationsändringar, se [Dokumentationsuppdateringar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
 ## AAM 2019 – dokumentationsuppdateringar {#aam-2019-docs-updates}
 

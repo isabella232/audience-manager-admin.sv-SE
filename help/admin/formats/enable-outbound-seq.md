@@ -16,10 +16,10 @@ ht-degree: 15%
 
 Du kan aktivera binära [!DNL Hadoop Sequence Files] ([!DNL SEQ]) utgående batchöverföringar för Audience Manager-kunder.
 
-Så här aktiverar du [!DNL SEQ] utgående filöverföringar:
+Aktivera [!DNL SEQ] utgående filöverföringar:
 
-1. Välj det företag och det mål som du vill aktivera [!DNL SEQ] utgående filöverföringar för.
-1. Bläddra nedåt till **[!UICONTROL Batch Data]** i gränssnittet **[!UICONTROL Edit Destinations]**.
+1. Välj det företag och den destination som du vill aktivera [!DNL SEQ] utgående filöverföringar.
+1. I **[!UICONTROL Edit Destinations]** gränssnitt, rulla ned till **[!UICONTROL Batch Data]**.
 1. Välj protokoll: **[!UICONTROL FTP]** eller **[!UICONTROL S3]**.
 1. Välj format: **[!UICONTROL AAM-Outbound-SEQ (415)]**.
-1. Bekräfta genom att klicka på **[!UICONTROL Save]** längst ned på sidan. Kunden kan nu skicka sekvensfiler för Hadoopet till målet.
+1. Bekräfta genom att klicka **[!UICONTROL Save]** längst ned på sidan. Kunden kan nu skicka sekvensfiler för Hadoopet till målet.

@@ -11,7 +11,7 @@ git-repo: https://github.com/AdobeDocs/audience-manager-admin.sv-SE
 index: false
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---

@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # HTTP-formatmakron {#http-format-macros}
 
-Visar makron som du kan använda för att skapa [!DNL HTTP]-datafiler. [!DNL HTTP] skickar data i ett  [!DNL JSON] format.
+Visar makron som du kan använda för att skapa [!DNL HTTP] datafiler. [!DNL HTTP] skickar data i en [!DNL JSON] format.
 
-Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för en lista och exempel på några vanliga makrokombinationer.
+Se [Exempel på makro i HTTP-format](../formats/web-format-examples.md) för en lista och exempel på några vanliga makrokombinationer.
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -30,7 +30,7 @@ Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> Audience Manager  </span> ID. </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
@@ -50,7 +50,7 @@ Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix UTC-tidsstämpel. En intern tidsstämpel representerar den tid AAM meddelades om att publicera målet <span class="wintitle"> S2S </span> till våra partners. </p> </td> 
+   <td colname="col3"> <p>Unix UTC-tidsstämpel. En intern tidsstämpel, representerar den tid AAM meddelades att publicera <span class="wintitle"> S2S </span> till våra partners. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -90,7 +90,7 @@ Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Det <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Audience Manager DCS-område </a> där aktiviteten kom.</p> </td> 
+   <td colname="col3"> <p>The <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Audience Manager DCS-regionen </a> där aktiviteten har sitt ursprung.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -107,7 +107,7 @@ Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för
       <li id="li_D3509A2D379E4C1FB3BC1B5E7D45A916"> <code>newSegmentId</code> </li> 
       <li id="li_EA901C20EEEB4CFAA39A5E0E822D2394"> <code>status</code> </li> 
       <li id="li_6310E21F88CC4691980DD3C9D551409F"> <code>dateTime</code> </li> 
-     </ul> </p> <p>Ange dessa fält i en array så som visas i det här exemplet: </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>Se även <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exempel på makron för HTTP-format </a>. </p> </td> 
+     </ul> </p> <p>Ange dessa fält i en array så som visas i det här exemplet: </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>Se även <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exempel på makro i HTTP-format </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TIME_LIST</code> </p> </td> 
@@ -134,7 +134,7 @@ Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för
       <li id="li_4A81E3B715254549B9EADB983A2FC32B"> <code>newSegmentId</code> </li> 
       <li id="li_1F01A60829DF4C87879D94299E1D589C"> <code>status</code> </li> 
       <li id="li_E52F10CD5A04487D81A4B1750B0DC4E3"> <code>dateTime</code> </li> 
-     </ul> </p> <p>Ange dessa fält i en array så som visas i det här exemplet: </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>Se även <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exempel på makron för HTTP-format </a>. </p> </td> 
+     </ul> </p> <p>Ange dessa fält i en array så som visas i det här exemplet: </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>Se även <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exempel på makro i HTTP-format </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIME_LIST</code> </p> </td> 
@@ -159,7 +159,7 @@ Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>En lista med <span class="keyword"> Audience Manager </span> användar-ID:n. Du kan även returnera specifika fält som innehåller följande: </p> 
+   <td colname="col3"> <p>En lista med <span class="keyword"> Audience Manager </span> användar-ID. Du kan även returnera specifika fält som innehåller följande: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -173,9 +173,8 @@ Se [Exempel på makron för HTTP-format](../formats/web-format-examples.md) för
      <li><code>user.regionIds</code></li> 
     </ul> <p>Ange dessa fält så som visas i det här exemplet: </p> <p> 
      <codeblock>
-       "AAM_UID": "&lt;user.aamUuid&gt;" 
-"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
-     </codeblock> </p> <p>Se även <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exempel på makron för HTTP-format </a> för ett fullständigt exempel. </p> </td> 
+       "AAM_UID": "&lt;user.aamuuid&gt;" "DataPartner_UUID": "&lt;user.dpuuid&gt;" 
+     </codeblock> </p> <p>Se även <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exempel på makro i HTTP-format </a> för ett fullständigt exempel. </p> </td> 
   </tr>
  </tbody>
 </table>

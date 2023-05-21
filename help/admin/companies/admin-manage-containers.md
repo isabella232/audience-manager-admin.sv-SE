@@ -1,17 +1,16 @@
 ---
 description: Visa eller redigera dataleverantörer för behållare.
-seo-description: Visa eller redigera dataleverantörer för behållare.
-seo-title: Hantera behållare
+seo-description: View or edit data providers for containers.
+seo-title: Manage Containers
 title: Hantera behållare
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
-translation-type: tm+mt
-source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+exl-id: 555f0633-633c-42ff-8923-adf626aa46c4
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 7%
+source-wordcount: '148'
+ht-degree: 6%
 
 ---
-
 
 # Hantera behållare {#manage-containers}
 
@@ -21,13 +20,13 @@ Visa eller redigera dataleverantörer för behållare.
 
 >[!NOTE]
 >
->Som standard skapas företag med en behållare. Du kan skapa ytterligare behållare för ett företag i användargränssnittet i **[!UICONTROL Tools > Tags]**.
+>Som standard skapas företag med en behållare. Du kan skapa fler behållare för ett företag i användargränssnittet i **[!UICONTROL Tools > Tags]**.
 
-1. Klicka på **[!UICONTROL Companies]**, leta upp och klicka sedan på önskat företag för att visa dess [!UICONTROL Profile]-sida.
+1. Klicka **[!UICONTROL Companies]** letar du upp och klickar på önskat företag för att visa [!UICONTROL Profile] sida.
 
-   Använd rutan [!UICONTROL Search] eller sidnumreringskontrollerna längst ned i listan för att hitta det önskade företaget. Du kan sortera varje kolumn i stigande eller fallande ordning genom att klicka på den önskade kolumnens rubrik.
+   Använd [!UICONTROL Search] eller sidnumreringskontrollerna längst ned i listan för att hitta det önskade företaget. Du kan sortera varje kolumn i stigande eller fallande ordning genom att klicka på den önskade kolumnens rubrik.
 
-1. Klicka på fliken **[!UICONTROL Containers]**.
+1. Klicka på **[!UICONTROL Containers]** -fliken.
 
    ![](assets/containers.png)
 
@@ -35,11 +34,11 @@ Visa eller redigera dataleverantörer för behållare.
 
    ![Stegresultat](assets/containers_edit.png)
 
-1. Flytta datakällor från listorna **[!UICONTROL Available Data Sources]** och **[!UICONTROL Selected Data Sources for This Container]** genom att markera önskade datakällor och sedan klicka på höger- eller vänsterpilarna efter behov.
+1. Flytta datakällor från **[!UICONTROL Available Data Sources]** och **[!UICONTROL Selected Data Sources for This Container]** markerar du datakällorna och klickar sedan på höger- eller vänsterpilarna efter behov.
 
-   Du kan även utföra den här uppgiften från [sidan Data Providers](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)från tredje part.
+   Du kan även utföra den här uppgiften från [Dataproviders från tredje part](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)sida.
 
-1. Klicka på **[!UICONTROL Save]** om du har gjort ändringar.
+1. Klicka **[!UICONTROL Save]** om du har gjort ändringar.
 
 >[!MORELIKETHIS]
 >

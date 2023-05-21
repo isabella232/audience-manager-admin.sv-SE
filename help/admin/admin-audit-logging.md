@@ -1,25 +1,24 @@
 ---
-description: 'Använd granskningsloggning som första plats när du felsöker kundproblem. '
-seo-description: 'Använd granskningsloggning som första plats när du felsöker kundproblem. '
-seo-title: Revisionsloggar
+description: Använd granskningsloggning som första plats när du felsöker kundproblem.
+seo-description: Use Audit Logging as a first place to go when debugging customer issues.
+seo-title: Audit Logging
 title: Revisionsloggar
 uuid: null
-translation-type: tm+mt
-source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 9%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
-
 # Revisionsloggar {#audit-logging}
 
-Använd [!UICONTROL  Audit Logging] som första plats när du felsöker kundproblem.
+Använd [!UICONTROL  Audit Logging] som en första plats att gå på när man felsöker kundproblem.
 
 >[!NOTE]
 >
->Funktionen och dokumentationen för [!UICONTROL Audit Logging] är under utveckling och kan ändras. Logga eventuella problem som du stöter på i [!DNL JIRA] ([!DNL UI] team).
+>The [!UICONTROL Audit Logging] funktionalitet och dokumentation håller på att utvecklas och kan komma att ändras. Logga eventuella problem du stöter på i [!DNL JIRA] ([!DNL UI] team).
 
 ![Granskningsloggningsvy](assets/audit-logging-img.png)
 

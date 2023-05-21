@@ -14,24 +14,24 @@ ht-degree: 3%
 
 # Skapa eller redigera en HTTP-server {#create-or-edit-an-http-server}
 
-Använd sidan [!UICONTROL Servers] i administrationsverktyget för Audience Manager om du vill skapa en ny HTTP-server eller redigera en befintlig server.
+Använd [!UICONTROL Servers] sida i administrationsverktyget för Audience Manager för att skapa en ny HTTP-server eller för att redigera en befintlig server.
 
 >[!NOTE]
 >
->Du måste ha rollen [!UICONTROL DEXADMIN] för att kunna skapa nya servrar eller redigera befintliga servrar.
+>Du måste ha [!UICONTROL DEXADMIN] roll för att skapa nya servrar eller redigera befintliga servrar.
 
-1. Om du vill skapa en ny server går du till **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Om du vill redigera en befintlig server klickar du på önskad server i kolumnen **[!UICONTROL Label]**.
+1. Om du vill skapa en ny server går du till **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Om du vill redigera en befintlig server klickar du på önskad server i dialogrutan **[!UICONTROL Label]** kolumn.
 1. Ange önskad etikett för den här servern.
-1. Välj önskat protokoll i listrutan **[!UICONTROL Protocol]**: [!DNL HTTP].
+1. Från **[!UICONTROL Protocol]** väljer du önskat protokoll: [!DNL HTTP].
 1. Fyll i fälten:
 
    * **[!UICONTROL Domain]:** Ange önskad domän (värd) för den här servern.
    * **[!UICONTROL Port]:** Ange önskad port för den här servern. Standardporten visas för varje krypteringstyp. Du kan ändra standardporten om det behövs
    * **[!UICONTROL Maximum Users Per Request]:** Ange maximalt antal användare per begäran som tillåts för den här servern.
-   * **[!UICONTROL URL Prefix]:** Ange det  [!DNL URL] prefix som ska användas för den här servern.
-   * **[!UICONTROL Authentication URL]:** Ange  [!UICONTROL Authentication URL] för den här  `HTTP` servern.
-   * **[!UICONTROL Authentication]:** Ange önskad autentiseringsmetod:  **[!UICONTROL None]**,  **[!UICONTROL Username/Password]** eller  **[!UICONTROL SSH Key]**.
-   * **[!UICONTROL HTTP Signature Header]:** Namnet på det  [!DNL HTTP] huvud som kunden anger som innehåller  [!DNL HTTP] signaturnyckeln. Standardvärdet är [!UICONTROL X-Signature], vilket visas i exemplet nedan:
+   * **[!UICONTROL URL Prefix]:** Ange [!DNL URL] prefix som ska användas för den här servern.
+   * **[!UICONTROL Authentication URL]:** Ange [!UICONTROL Authentication URL] för `HTTP` server.
+   * **[!UICONTROL Authentication]:** Ange önskad autentiseringsmetod: **[!UICONTROL None]**, **[!UICONTROL Username/Password]**, eller **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL HTTP Signature Header]:** Namnet på [!DNL HTTP] som tillhandahålls av kunden och som innehåller [!DNL HTTP] signaturnyckel. Standardvärdet är [!UICONTROL X-Signature], vilket visas i exemplet nedan:
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -44,13 +44,13 @@ Använd sidan [!UICONTROL Servers] i administrationsverktyget för Audience Mana
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]:** Nyckeln som används för att signera  [!DNL HTTP] begäran, som tillhandahålls av kunden.
-   * **[!UICONTROL Show Signature Key]:** Växla om signaturen ska visas eller inte i webbläsaren.
-   * **[!UICONTROL HTTP Signature Encryption Method]:** Ange den metod vi använder för att kryptera signaturen. Använd [!UICONTROL SHA1] om inte kunden föredrar något annat.
+   * **[!UICONTROL HTTP Signature Key]:** Nyckeln som används för att signera [!DNL HTTP] förfrågan från kunden.
+   * **[!UICONTROL Show Signature Key]:** Växla om signaturen ska visas i webbläsaren eller inte.
+   * **[!UICONTROL HTTP Signature Encryption Method]:** Ange den metod som vi använder för att kryptera signaturen. Använd [!UICONTROL SHA1] såvida inte kunden föredrar något annat.
 
    >[!NOTE]
    >
-   >Om du vill aktivera [OAuth 2.0-autentisering för dataöverföringar i realtid](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) för en partner fyller du i fälten som i tabellen nedan. Fälten i *kursiv* måste fyllas i exakt som i tabellen.
+   >Om du vill aktivera [OAuth 2.0-autentisering för dataöverföringar i realtid](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) för en partner, fyll i fälten enligt tabellen nedan. Fälten i *kursiv* måste fyllas i exakt som i tabellen.
 
    | Namn | Värde |
    |---|---|
@@ -68,4 +68,4 @@ Använd sidan [!UICONTROL Servers] i administrationsverktyget för Audience Mana
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Encryption Method] | [!UICONTROL None] |
 
-1. Klicka på **[!UICONTROL Create]** om du skapar en ny server eller klicka på **[!UICONTROL Update]** om du redigerar en befintlig server.
+1. Klicka **[!UICONTROL Create]** om du skapar en ny server, eller klickar på **[!UICONTROL Update]** om du redigerar en befintlig server.

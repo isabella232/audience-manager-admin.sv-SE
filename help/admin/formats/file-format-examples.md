@@ -1,25 +1,24 @@
 ---
 description: Exempel på hur makron används för att skapa utgående FTP-filmallar.
-seo-description: Exempel på hur makron används för att skapa utgående FTP-filmallar.
-seo-title: Exempel på filformatsmakro
+seo-description: Examples of how macros are used to create outbound, FTP file templates.
+seo-title: File Format Macro Examples
 title: Exempel på filformatsmakro
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 5%
+source-wordcount: '199'
+ht-degree: 4%
 
 ---
 
-
 # Exempel på filformatsmakro {#file-format-macro-examples}
 
-Exempel på hur makron används för att skapa utgående, [!DNL FTP]-filmallar.
+Exempel på hur makron används för att skapa utgående, [!DNL FTP] filmallar.
 
 >[!NOTE]
 >
->I tabellerna identifierar typen **fet** varje makro med tillhörande utdata. För formatexemplen har symbolerna &lt; > lagts till för att hjälpa till att visuellt skilja ut varje makro.
+>I tabellerna **fet** typ identifierar varje makro med tillhörande utdata. För formatexemplen har symbolerna &lt; > lagts till för att hjälpa till att visuellt skilja ut varje makro.
 
 ## Vanliga makron {#common-macros}
 
@@ -69,7 +68,7 @@ Dessa makron kan användas i alla formatfält. Se [Filformatmakron](../formats/f
  </tbody> 
 </table>
 
-## Huvudfältmakron {#header-field-macros}
+## Makron för rubrikfält {#header-field-macros}
 
 Makron används endast i rubrikfält. Se [Filformatmakron](../formats/file-formats.md) för en fullständig lista och definitioner.
 
